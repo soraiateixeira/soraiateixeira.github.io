@@ -1,9 +1,118 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Soraia Teixeira</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.10/jquery.lazy.min.js"></script>
 </head>
+
 <body>
-    <h1>Soraia Teixeira</h1>
+    <header>
+        <h1>—SORAIA GOMES TEIXEIRA</h1>
+        <nav>
+            <li><a href="about.html">ABOUT</a></li>
+        </nav>
+    </header>
+    <main>
+
+        <article>
+            <img class="article-image" src="fotos/Caixas/54514131_3115353165157597_467884125089431552_o.jpg">
+            <div class="legenda">
+                <div>
+                    <h3 class="title">CAIXAS</h3>
+                    <h4 class="date">2019</h4>
+                </div>
+                <div class="more">i</div>
+            </div>
+            <div class="info">
+                <h3 class="title">Caixas</h3>
+                <h4 class="date">2019</h4>
+                <p class="description">The “boxes” are three storage boxes that call the contact between the user and the lid of these pieces. To open each object, whoever uses them needs to exert some form on the most prominent face of each lid. The design of these pieces allows them, as archival boxes, not to be omitted in a space and now to be present and to be part of the composition of the place. These objects were designed to be developed in 2mm aluminum veneer.</p>
+                <div class="close">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8" style="enable-background:new 0 0 100 100.8;" xml:space="preserve">
+                        <polygon points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
+                    </svg></div>
+            </div>
+        </article>
+        
+        <article>
+            <img class="article-image" src="fotos/Caixas/_MG_8208.JPG">
+            <div class="legenda">
+                <div>
+                    <h3 class="title">CAIXAS</h3>
+                    <h4 class="date">2019</h4>
+                </div>
+                <div class="more">i</div>
+            </div>
+            <div class="info">
+                <h3 class="title">Caixas</h3>
+                <h4 class="date">2019</h4>
+                <p class="description">The “boxes” are three storage boxes that call the contact between the user and the lid of these pieces. To open each object, whoever uses them needs to exert some form on the most prominent face of each lid. The design of these pieces allows them, as archival boxes, not to be omitted in a space and now to be present and to be part of the composition of the place. These objects were designed to be developed in 2mm aluminum veneer.</p>
+                <div class="close">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8" style="enable-background:new 0 0 100 100.8;" xml:space="preserve">
+                        <polygon points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
+                    </svg></div>
+            </div>
+        </article>
+        
+        
+        <div id="arrow-nav">
+            <a class="next" onclick="plusSlides(1)"><img src="assets/arrow-right.svg"></a>
+            <a class="prev" onclick="plusSlides(-1)"><img src="assets/arrow-left.svg"></a>
+        </div>
+        <div id="nav-dots">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    </main>
+
+    <script>
+        //        OPEN AND CLOSE INFOS
+        $("article").find('.more').click(function() {
+            $(this).parent().parent().find(".info").show();
+            $(this).parent().parent().find(".close").click(function() {
+                $(this).parent().hide();
+            });
+        })
+
+
+        //        SLIDER
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.querySelectorAll("article");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "flex";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
 </body>
+
 </html>
