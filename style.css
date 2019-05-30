@@ -272,7 +272,7 @@ main article .info .close svg {
     }
     #content {
         width: 100vw;
-        height: calc(80 * var(--vh));
+        height: 80%;
         border: 1px solid black;
     }
     
