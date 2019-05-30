@@ -216,6 +216,12 @@ main article .legenda .more::after {
     border-radius: 50%;
 }
 
+.blend {
+    color: white;
+    background: black;
+    mix-blend-mode: difference;
+}
+
 /*ARTICLE LEGENDA-END*/
 
 /*ARTICLE INFO*/
