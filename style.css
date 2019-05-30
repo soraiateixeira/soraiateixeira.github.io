@@ -261,7 +261,7 @@ main article .info .close svg {
     display: none !important;
 }
 .slick-track {
-    height: 100vh;
+    height: calc(100 * var(--vh));
 }
 
 
@@ -272,7 +272,7 @@ main article .info .close svg {
     }
     #content {
         width: 100vw;
-        height: 80vh;
+        height: calc(80 * var(--vh));
         border: 1px solid black;
     }
     
