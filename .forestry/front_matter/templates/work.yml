@@ -1,0 +1,16 @@
+---
+label: WORK
+hide_body: true
+fields:
+- type: number
+  name: ano
+  label: ano
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: image_gallery
+  name: images
+  label: images
