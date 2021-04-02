@@ -1,0 +1,18 @@
+title: Soraia Gomes Teixeira
+author: Bruno Santos
+description:
+
+collections:
+  works:
+
+
+docs_list_title: ACME Documentation
+docs:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+date_format: "%b %-d, %Y"

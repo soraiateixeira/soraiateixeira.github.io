@@ -1,0 +1,124 @@
+//main: main.scss
+
+
+#menuToggle {
+	position: relative;
+	top: 25px;
+	right: 25px;
+	z-index: 1;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	#about_label {
+		position: fixed;
+		top: 30px;
+		right: 30px;
+		height: 50px;
+		width: 200px;
+		cursor: pointer;
+		z-index: 10000;
+
+		.close {
+			position: absolute;
+			top: 0;
+			right: 0;
+			opacity:0;
+			-webkit-transition: opacity 0.1s ease-in-out;
+			-o-transition: opacity 0.1s ease-in-out;
+			-moz-transition: opacity 0.1s ease-in-out;
+			transition: opacity 0.1s ease-in-out;
+		}
+		.open {
+			position: absolute;
+			top: 0;
+			right: 0;
+			opacity:1;
+			-webkit-transition: opacity 0.1s ease-in-out;
+			-o-transition: opacity 0.1s ease-in-out;
+			-moz-transition: opacity 0.1s ease-in-out;
+			transition: opacity 0.1s ease-in-out;
+		}
+	}
+
+	input {
+		visibility: hidden;
+		opacity: 0;
+		z-index: 2;
+		&:checked {
+			& ~ #about_label {
+				.close {
+					opacity: 1;
+				}
+				.open {
+					opacity: 0;
+				}
+			}
+
+			& ~ #menu {
+				-webkit-transform: none;
+				-moz-transform: none;
+				-ms-transform: none;
+				-o-transform: none;
+				transform: none;
+			}
+		}
+	}
+}
+#menu {
+	position: fixed;
+	z-index: 900;
+	right: 0;
+	top: 0;
+	height: 100vh;
+  width: 600px;
+
+	margin: -50px 0 0 -50px;
+	padding: 300px 25px 50px;
+
+	color: black;
+	background: $bg_color;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+  font-size: 16px;
+	letter-spacing: 1px;
+  overflow: scroll;
+
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-o-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-transform: translate(100%, 0);
+	-moz-transform: translate(100%, 0);
+	-ms-transform: translate(100%, 0);
+	-o-transform: translate(100%, 0);
+	transform: translate(100%, 0);
+
+	-webkit-transition: -webkit-transform 0.5s ease-out;
+	transition: -webkit-transform 0.5s ease-out;
+	-o-transition: -o-transform 0.5s ease-out;
+	-moz-transition: transform 0.5s ease-out, -moz-transform 0.5s ease-out;
+	transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out, -moz-transform 0.5s ease-out, -o-transform 0.5s ease-out;
+
+
+	@include media-breakpoint-down(md) {
+		height: 100vh;
+		width: 100vw;
+		border: 1px solid black;
+		margin: 0;
+	}
+
+	.contactos h4 {
+	  font-size: 22px;
+	  margin-bottom: 15px;
+	  font-family: NBgrotesk-Bold, sans-serif;
+	}
+}
