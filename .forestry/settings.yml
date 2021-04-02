@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: About
-  create: none
-  templates:
-  - about
 - type: directory
   path: _works
   label: Works
@@ -16,6 +11,13 @@ sections:
   match: "**/*"
   templates:
   - work
+- type: heading
+  label: Data
+- type: jekyll-pages
+  label: About
+  create: none
+  templates:
+  - about
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
