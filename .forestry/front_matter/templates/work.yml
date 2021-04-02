@@ -1,6 +1,7 @@
 ---
-label: WORK
+label: Work
 hide_body: true
+display_field: title
 fields:
 - type: number
   name: ano
