@@ -161,6 +161,8 @@ main article .info .title, main article .info .date {
   font-size: 30px;
   margin: 0;
   padding-top: 50px;
+	mix-blend-mode: exclusion;
+  color: white;
 }
 
 main article .info .description {
