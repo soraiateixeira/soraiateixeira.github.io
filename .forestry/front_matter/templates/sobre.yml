@@ -27,5 +27,3 @@ fields:
       format: html
   label: Outros Contactos
   description: 'Adicionar outros contactos '
-pages:
-- _includes/header.html

@@ -14,7 +14,7 @@ sections:
   templates:
   - work
 - type: document
-  path: _includes/header.html
+  path: _includes/header.md
   label: About
 upload_dir: uploads
 public_path: "/uploads"
