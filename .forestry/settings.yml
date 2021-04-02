@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: About
   create: all
-  match: "**/*"
   templates:
   - about
 - type: directory

@@ -24,3 +24,5 @@ fields:
     max: 
     labelField: 
   label: Contacts
+pages:
+- Main about.md
