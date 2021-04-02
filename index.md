@@ -27,7 +27,7 @@ title: home
 	{% for work in ordered_pages %}
 	<article class="project">
 
-		<div class="project_thumbnail_mobile" style="background-image:url('fotos/slideshow/marisas1.jpg')">
+		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ work.cover_image }}&h=900&q=85&output=jpg')">
 			<h3 class="title">{{ work.title }}</h3>
 			<h4 class="date">{{ work.ano }}</h4>
 
