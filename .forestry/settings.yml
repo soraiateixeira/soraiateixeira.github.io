@@ -16,7 +16,6 @@ sections:
 - type: document
   path: _includes/header.html
   label: About
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
