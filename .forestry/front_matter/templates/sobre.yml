@@ -27,3 +27,5 @@ fields:
       format: html
   label: Outros Contactos
   description: 'Adicionar outros contactos '
+pages:
+- index.md
