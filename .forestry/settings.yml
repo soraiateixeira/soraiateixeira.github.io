@@ -6,7 +6,7 @@ webhook_url:
 sections:
 - type: jekyll-pages
   label: About
-  create: all
+  create: none
   templates:
   - about
 - type: directory
@@ -14,6 +14,8 @@ sections:
   label: Works
   create: all
   match: "**/*"
+  templates:
+  - work
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
