@@ -5,13 +5,15 @@ display_field: title
 fields:
 - type: number
   name: ano
-  label: ano
+  label: Ano
 - type: text
   name: title
-  label: title
+  label: Project Title
 - type: textarea
   name: description
-  label: description
+  label: Project Description
+  config:
+    wysiwyg: false
 - type: image_gallery
   name: images
-  label: images
+  label: Images
