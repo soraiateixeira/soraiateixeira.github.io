@@ -10,6 +10,5 @@ images:
 - "/uploads/51_marisas.jpg"
 - "/uploads/41_marisas.jpg"
 - "/uploads/26_marisas.jpg"
-published: false
 
 ---
