@@ -13,9 +13,11 @@ sections:
   match: "**/*"
   templates:
   - work
-- type: jekyll-pages
+- type: directory
+  path: _includes
   label: About
-  create: none
+  create: documents
+  match: "**/*"
   templates:
   - about
 upload_dir: uploads
