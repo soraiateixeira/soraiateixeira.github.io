@@ -11,3 +11,16 @@ fields:
     schema:
       format: markdown
   label: About Text
+- name: contacts
+  type: field_group_list
+  fields:
+  - name: contact
+    type: text
+    config:
+      required: false
+    label: contact
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Contacts
