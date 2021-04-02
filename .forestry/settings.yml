@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: heading
+  label: Projects
 - type: directory
   path: _works
   label: Works
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - work
-- type: heading
-  label: Data
 - type: jekyll-pages
   label: About
   create: none
