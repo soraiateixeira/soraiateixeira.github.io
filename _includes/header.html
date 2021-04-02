@@ -1,19 +1,9 @@
 ---
-sobre: Soraia Gomes Teixeira, vive e trabalha no Porto. Estudou Design Industrial
-  no Instituto Politécnico do Porto e o e Design de Produto na Escola Superior de
-  Artes e Design das Caldas da Rainha, tendo como tema de investigação prática “Como
-  o corpo molda o objecto e como o objecto molda o corpo”. Em 2015, enquanto finalista
-  da Mostra de Jovens Criadores Portugueses, representou Portugal na categoria de
-  Design de Equipamento, na VII Bienal da Comunidade de Países de Língua Portuguesa.
-  Em 2019 foi designer convidada para participar nas residências RARA do festival
-  WALK&amp;TALK. Atualmente, trabalha em nome próprio em colaboração com a industria
-  portuguesa , e leciona disciplinas de projeto enquanto professora assistente convidada
-  na Escola Superior de Media Artes e Design do Instituto Politécnico do Porto.
-email: soraiamgfteixeira@gmail.com
-outros_contactos: <a href="" title="">Instagram</a><br><br>Rua de Ceuta, nº 53<br>2º
-  andar, sala 11 <br>Porto, Portugal
+layout: default
+title: home
 
 ---
+
 <header id="header">
 	<h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
 
@@ -26,22 +16,12 @@ outros_contactos: <a href="" title="">Instagram</a><br><br>Rua de Ceuta, nº 53<
 			</label>
 			<div id="menu">
 				<div class="description">
-					<p><span class="bold">Soraia Gomes Teixeira</span>, nasceu em 1990 no Porto, Portugal.</p>
-					<p>Estudou Artes Visuais no ensino secundário e em 2009 ingressou no curso de Design Industrial no Instituto Politécnico do Porto. Em 2012, frequentou o mestrado de Design de Produto na Escola Superior de Artes e Design das Caldas da
-						Rainha,
-						tendo como tema de tese “Como o corpo molda o objecto e como o objecto molda o corpo”, trabalho orientado pelo designer e professor Miguel Vieira Baptista.</p>
-					<p>Paralelamente, estudou clarinete em várias academias de música no Porto e Espinho.
-						Em 2014, foi seleccionada para a mostra POP’s (projectos de origem portuguesa), mostra organizada pela loja da Fundação de Serralves. No mesmo ano, é seleccionada para a Mostra de Jovens Criadores Portugueses, concurso organizado pelo
-						Clube
-						Português de Artes e Ideias, e em 2015 representa Portugal na categoria de Design de Equipamento, na VII Bienal da Comunidade de Países de Língua Portuguesa em Maputo, Moçambique.</p>
-					<p>Em 2017, colaborou com o estúdio Ciszak Dalmas em Madrid. Atualmente, trabalha em nome próprio em colaboração com a industria portuguesa, leciona disciplinas de projeto enquanto professora assistente convidada na Escola Superior de
-						Media
-						Artes e design do Politécnico do Porto e frequenta o programa doutoral em design na Universidade de Aveiro.</p>
+					{{ sobre }}
 				</div>
 				<div class="contactos">
 					<h4>Contactos</h4>
-					<a href="mailto:soraiamgfteixeira@gmail.com" target="_blank">soraiamgfteixeira@gmail.com</a><br><br>
-					<a href="https://goo.gl/maps/E4J996dSafZTgsqo8" target="_blank">Rua da Alegria, nº 911 - sala 2, Porto</a>
+					<a href="mailto:{{ email }}" target="_blank">{{ email }}</a><br><br>
+					{{ outros_contactos }}
 				</div>
 			</div>
 		</div>

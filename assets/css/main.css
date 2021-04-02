@@ -764,7 +764,7 @@ main article .info .close svg {
   top: 0;
   height: 100vh;
   width: 600px;
-  margin: -50px 0 0 -50px;
+  margin: 0 0 0 -50px;
   padding: 300px 25px 50px;
   color: black;
   background: white;
