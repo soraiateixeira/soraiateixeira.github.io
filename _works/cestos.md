@@ -12,5 +12,6 @@ images:
 - "/uploads/caixa2.jpg"
 - "/uploads/54514131_3115353165157597_467884125089431552_o.jpg"
 - "/uploads/_mg_8214.jpg"
+cover_image: "/uploads/54514131_3115353165157597_467884125089431552_o.jpg"
 
 ---
