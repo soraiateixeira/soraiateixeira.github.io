@@ -26,6 +26,6 @@ fields:
     schema:
       format: html
   label: Outros Contactos
-  description: 'Adicionar outros contactos '
+  description: 'Adicionar outros contactos através de link na caixa de edição de texto'
 pages:
 - index.md
