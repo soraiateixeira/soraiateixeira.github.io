@@ -2,6 +2,38 @@
 layout: default
 title: home
 ---
+
+
+
+<header id="header">
+	<h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
+
+	<nav role="navigation">
+		<div id="menuToggle">
+			<input type="checkbox" id="open" />
+			<label id="about_label" for="open">
+				<span class="open">SOBRE</span>
+				<span class="close">FECHAR</span>
+			</label>
+			<div id="menu">
+				<div class="description">
+					{{ page.sobre }}
+				</div>
+				<div class="contactos">
+					<h4>Contactos</h4>
+					<a href="mailto:{{ page.email }}" target="_blank">{{ page.email }}</a><br><br>
+					{{ page.outros_contactos }}
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	</div>
+</header>
+
+
+
 <div id="main_slider_navigation">
 	<div id="arrow_left" class="arrow" onclick="prevSlideHorizontal()">
 		<img src="{{ "/assets/arrow_left.svg" | relative_url }}" alt="Arrow pointing to the left">
