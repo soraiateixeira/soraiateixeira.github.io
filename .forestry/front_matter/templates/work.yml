@@ -19,7 +19,7 @@ fields:
   config:
     maxSize: 64
   label: Cover Image
-  description: Image that appears on mobile
+  description: Image that appears on mobile. Should be landscape if possible.
 - type: image_gallery
   name: images
   label: Images
