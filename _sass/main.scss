@@ -61,8 +61,8 @@ $grid-breakpoints: (
   xxl: 1400px
 ) !default;
 // scss-docs-end grid-breakpoints
-@import "bootstrap/mixins/_grid.scss";
-@import "bootstrap/mixins/_breakpoints.scss";
+@import "../assets/css/bootstrap/mixins/_grid.scss";
+@import "../assets/css/bootstrap/mixins/_breakpoints.scss";
 
 $innerWidth: 1350px;
 $innerWidthXL: 1450px;
