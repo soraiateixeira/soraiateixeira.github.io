@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: heading
-  label: Projects
+  label: Settings
 - type: directory
   path: _works
   label: Works
@@ -13,13 +13,10 @@ sections:
   match: "**/*"
   templates:
   - work
-- type: directory
-  path: _includes
+- type: document
+  path: _includes/header.html
   label: About
-  create: documents
   match: "**/*"
-  templates:
-  - about
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
