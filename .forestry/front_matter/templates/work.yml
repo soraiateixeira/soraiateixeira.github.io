@@ -13,7 +13,9 @@ fields:
   name: description
   label: Project Description
   config:
-    wysiwyg: false
+    wysiwyg: true
+    schema:
+      format: html
 - name: cover_image
   type: file
   config:
