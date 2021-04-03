@@ -1,16 +1,5 @@
 // main: ../assets/css/main.scss
 
-/* ::-webkit-scrollbar {
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-} */
 
 :root {
   --pink: #f9b7c3;
@@ -69,6 +58,9 @@ $innerWidthXL: 1450px;
 
 
 
+@import "_fonts.scss";
+
+
 
 * {
   -webkit-overflow-scrolling: touch;
@@ -76,9 +68,10 @@ $innerWidthXL: 1450px;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
   font-smoothing: antialiased !important;
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-  font-weight: 400;
 	outline: none;
+	font-family: 'Basier Circle', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
+
 	&:hover {
 		outline: none;
 	}
@@ -193,7 +186,9 @@ body {
   color: $primary_color;
   background-color: $bg_color;
 
-  /* TYPOGRAPHY SIZES */
+  /* TYPOGRAPHY */
+	font-family: 'Basier Circle', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 400;
   font-size: 10px; //base size
   @include media-breakpoint-down(sm) {
     font-size: 8px;
@@ -202,14 +197,10 @@ body {
 
 
 h1 {
-  font-size:40px;
   font-weight: 600;
   line-height: 1;
   padding: 0 !important;
   margin: 0;
-  @include media-breakpoint-down(md) {
-    font-size: 30px;
-  }
 }
 
 h2 {
@@ -279,7 +270,6 @@ p, li {
 }
 
 img {
-  width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -400,8 +390,11 @@ img {
 
 #header {
   width: 100%;
-  height: 300px;
-  padding: 20px;
+  height: 100px;
+  padding: 30px;
+	@include media-breakpoint-down(md) {
+    padding: 20px;
+  }
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -420,20 +413,19 @@ img {
   justify-content: space-between;
   line-height: 1.2;
 
-  // background: black;
-  // mix-blend-mode: difference;
+	font-size: 22px;
 
 	h1 {
 	  max-width: 300px;
 	  margin: 0;
-	  font-size: 1em;
 		position: fixed;
 		z-index: 1000;
+		font-size: 22px;
 	}
+
 
 	nav {
 	  width: 300px;
-	  text-align: right;
 
 		li {
 		  list-style: none;
@@ -449,6 +441,7 @@ img {
 	}
 
 }
+
 #main_slider_navigation {
 	position: fixed;
 	top: 0;
@@ -456,26 +449,37 @@ img {
 	width: 100vw;
 	height: 100vh;
 	pointer-events: none;
-	z-index: 1000;
+	z-index: 9;
 
 	@include media-breakpoint-down(md) {
     display: none !important;
   }
 
 	.arrow {
-		width: 100px;
-		height: 100px;
 		position: absolute;
 		-o-object-fit: contain;
 		object-fit: contain;
 		-o-object-position: center;
 		object-position: center;
-		padding: 20px;
 		cursor: pointer;
 		pointer-events: all;
+		opacity: 0.8;
+		mix-blend-mode: difference;
+
+		svg {
+			width: 80%;
+			height: 80%;
+
+			line {
+				stroke: gray !important;
+			}
+		}
 
 
 		&#arrow_left {
+			width: 100px;
+			height: 250px;
+			padding: 100px 25px;
 			top: 50%;
 			left: 0;
 			-webkit-transform: translateY(-50%);
@@ -485,6 +489,9 @@ img {
 			transform: translateY(-50%);
 		}
 		&#arrow_right {
+			width: 100px;
+			height: 250px;
+			padding: 100px 25px;
 			top: 50%;
 			right: 0;
 			-webkit-transform: translateY(-50%);
@@ -494,6 +501,9 @@ img {
 			transform: translateY(-50%);
 		}
 		&#arrow_top {
+			width: 250px;
+			height: 100px;
+			padding: 25px 100px;
 			top: 0;
 			left: 50%;
 			-webkit-transform: translateX(-50%);
@@ -503,6 +513,9 @@ img {
 			transform: translateX(-50%);
 		}
 		&#arrow_bottom {
+			width: 250px;
+			height: 100px;
+			padding: 25px 100px;
 			bottom: 0;
 			left: 50%;
 			-webkit-transform: translateX(-50%);
@@ -565,7 +578,8 @@ img {
 #main_wrapper {
 	height: 100vh;
 	@include media-breakpoint-down(md) {
-		overflow: scroll;
+		overflow: unset !important;
+		height: unset !important;
 	}
 	.slick-slide {
 		border: 0;
@@ -575,6 +589,7 @@ img {
 	}
 
 	.project {
+		overflow: hidden;
 		@include media-breakpoint-down(md) {
 			height: unset;
 
@@ -621,9 +636,13 @@ img {
 			display: none;
 			@include media-breakpoint-down(md) {
 				position: absolute;
-				top: 0;
-				right: 0;
+				top: 20px;
+				right: 20px;
 				padding: 10px;
+				svg {
+					width: 30px;
+					height: 30px;
+				}
 			}
 		}
 		.project_thumbnail_mobile {
@@ -641,24 +660,74 @@ img {
 				background-repeat: no-repeat;
 
 				padding: 20px;
+
+				.title, .date {
+					@supports(mix-blend-mode: exclusion) {
+						mix-blend-mode: exclusion;
+						color: white;
+					}
+				}
 		  }
 		}
 		.project_info, .project_image {
 			@include media-breakpoint-down(md) {
-		    display: none;
+		    display: none !important;
 		  }
 		}
 
 		.slide {
-			height: unset !important;
-			max-height: 80vh;
-			min-height: 30vh;
-			width: 40vw;
+			@include media-breakpoint-up(md) {
+				height: 75vh;
+				max-width: 95vw;
+			}
 
 			&.project_info {
-				width: 50vw;
+				width: 45vw;
+				@include media-breakpoint-up(md) {
+					min-width: 600px;
+			  }
+				padding: 50px 100px 50px 50px;
 
-				padding: 100px 50px;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: end;
+				-webkit-align-items: flex-end;
+				-moz-box-align: end;
+				-ms-flex-align: end;
+				align-items: flex-end;
+				-webkit-box-pack: end;
+				-webkit-justify-content: flex-end;
+				-moz-box-pack: end;
+				-ms-flex-pack: end;
+				justify-content: flex-end;
+
+				.wrapper {
+					max-width: 600px;
+				}
+
+				.title, .date {
+			    font-size: 22px;
+					font-weight: 500;
+					text-transform: uppercase;
+			    margin-bottom: 5px;
+			  }
+				.description {
+					margin-top: 15px;
+					font-size: 15px;
+					b {
+						font-weight: 500;
+					}
+				}
+			}
+
+			img {
+				height: 100%;
+				@include media-breakpoint-down(md) {
+					width: 100%;
+			  }
 			}
 		}
 	}

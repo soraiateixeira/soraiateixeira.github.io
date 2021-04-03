@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<title>Soraia Teixeira</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-
-	<link rel="canonical" href="https://.com">
-
-	<meta name="theme-color" content="#000000">
-	<!--<link href="files/web.png" rel="shortcut icon" type="image/x-icon">-->
-
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="BrunoSantos@brunobrunodesigndesign.com">
-
-	<link rel="stylesheet" href="/assets/css/main.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css" />
-
-	<script type="text/javascript">
-		let vh = window.innerHeight * 0.01;
-		document.documentElement.style.setProperty('--vh', `${vh}px`);
-	</script>
-
-	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-
-</head><body>
-
-	<header id="header">
+I"W$<header id="header">
 	<h1>—SORAIA<br />GOMES<br />TEIXEIRA</h1>
 
 	<nav role="navigation">
@@ -49,9 +16,6 @@
 					<a href="mailto:soraiamgfteixeira@gmail.com" target="_blank">soraiamgfteixeira@gmail.com</a><br /><br />
 					
 				</div>
-				<div class="footer">
-					<h6>@ 2021</h6>
-				</div>
 			</div>
 		</div>
 	</nav>
@@ -59,55 +23,35 @@
 </header>
 
 <div id="main_slider_navigation">
-	<div id="arrow_left" class="arrow" onclick="prevSlideHorizontal(event)">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="41.465" y1="21.8244" x2="1.90633" y2="21.8244" stroke="black" stroke-width="2" />
-		<line x1="1.49394" y1="22.4938" x2="22.3143" y2="1.67348" stroke="black" stroke-width="2" />
-		<line x1="1.88673" y1="21.4725" x2="22.7071" y2="42.2928" stroke="black" stroke-width="2" />
-		</svg>
+	<div id="arrow_left" class="arrow" onclick="prevSlideHorizontal()">
+		<img src="/assets/arrow_left.svg" alt="Arrow pointing to the left" />
 	</div>
-	<div id="arrow_right" class="arrow" onclick="nextSlideHorizontal(event)">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="1.53485" y1="21.1755" x2="41.0935" y2="21.1755" stroke="black" stroke-width="2" />
-		<line x1="41.5059" y1="20.5061" x2="20.6856" y2="41.3265" stroke="black" stroke-width="2" />
-		<line x1="41.1131" y1="21.5275" x2="20.2928" y2="0.707109" stroke="black" stroke-width="2" />
-		</svg>
+	<div id="arrow_right" class="arrow" onclick="nextSlideHorizontal()">
+		<img src="/assets/arrow_right.svg" alt="Arrow pointing to the right" />
 	</div>
 	<div id="arrow_top" class="arrow">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="21.1755" y1="41.5996" x2="21.1755" y2="2.04092" stroke="black" stroke-width="2" />
-		<line x1="20.5061" y1="1.62853" x2="41.3265" y2="22.4489" stroke="black" stroke-width="2" />
-		<line x1="21.5275" y1="2.02132" x2="0.707107" y2="22.8417" stroke="black" stroke-width="2" />
-		</svg>
+		<img src="/assets/arrow_top.svg" alt="Arrow pointing to the top" />
 	</div>
 	<div id="arrow_bottom" class="arrow">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="21.8245" y1="1.48993" x2="21.8245" y2="41.0486" stroke="black" stroke-width="2" />
-		<line x1="22.4939" y1="41.461" x2="1.67355" y2="20.6407" stroke="black" stroke-width="2" />
-		<line x1="21.4725" y1="41.0682" x2="42.2929" y2="20.2479" stroke="black" stroke-width="2" />
-		</svg>
+		<img src="/assets/arrow_bottom.svg" alt="Arrow pointing to the bottom" />
 	</div>
 </div>
 
-<main id="main_wrapper">
+<main id="main_wrapper main-carousel">
 
 
 	
 	
-	<article class="project main-carousel">
+	<article class="project carousel-cell">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
 			<h3 class="title">Cestos</h3>
 			<h4 class="date">2021</h4>
 
 		</div>
-		<div class="fechar_popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8">
-			<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
-			</svg>
-		</div>
+		<div class="fechar_popup">X</div>
 
-		<div class="project_info slide carousel-cell">
+		<div class="project_info slide">
 			<div class="wrapper">
 				<h3 class="title">Cestos</h3>
 				<h4 class="date">2021</h4>
@@ -118,39 +62,35 @@
 		</div>
 
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
 
 	</article>
 	
-	<article class="project main-carousel">
+	<article class="project carousel-cell">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/54514131_3115353165157597_467884125089431552_o.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
 			<h3 class="title">Cestos</h3>
 			<h4 class="date">2014</h4>
 
 		</div>
-		<div class="fechar_popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8">
-			<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
-			</svg>
-		</div>
+		<div class="fechar_popup">X</div>
 
-		<div class="project_info slide carousel-cell">
+		<div class="project_info slide">
 			<div class="wrapper">
 				<h3 class="title">Cestos</h3>
 				<h4 class="date">2014</h4>
@@ -161,35 +101,31 @@
 		</div>
 
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/caixa2.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/54514131_3115353165157597_467884125089431552_o.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/_mg_8214.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
 
 	</article>
 	
-	<article class="project main-carousel">
+	<article class="project carousel-cell">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
 			<h3 class="title">Marisas</h3>
 			<h4 class="date">2015</h4>
 
 		</div>
-		<div class="fechar_popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8">
-			<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
-			</svg>
-		</div>
+		<div class="fechar_popup">X</div>
 
-		<div class="project_info slide carousel-cell">
+		<div class="project_info slide">
 			<div class="wrapper">
 				<h3 class="title">Marisas</h3>
 				<h4 class="date">2015</h4>
@@ -200,35 +136,31 @@
 		</div>
 
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
 
 	</article>
 	
-	<article class="project main-carousel">
+	<article class="project carousel-cell">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/13.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
 			<h3 class="title">XIA</h3>
 			<h4 class="date">2020</h4>
 
 		</div>
-		<div class="fechar_popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100.8">
-			<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 " />
-			</svg>
-		</div>
+		<div class="fechar_popup">X</div>
 
-		<div class="project_info slide carousel-cell">
+		<div class="project_info slide">
 			<div class="wrapper">
 				<h3 class="title">XIA</h3>
 				<h4 class="date">2020</h4>
@@ -239,19 +171,19 @@
 		</div>
 
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
-		<div class="project_image slide carousel-cell">
+		<div class="project_image slide">
 			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 		</div>
 		
@@ -266,9 +198,4 @@
 
 <script type="text/javascript" src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
 
-
-
-	<script src="/assets/js/scripts.js" charset="utf-8"></script>
-</body>
-
-</html>
+:ET

@@ -19,6 +19,18 @@
 		width: 200px;
 		cursor: pointer;
 		z-index: 10000;
+		text-align: right;
+		@include media-breakpoint-down(md) {
+	    top: 20px;
+			right: 20px;
+	  }
+
+		span {
+			font-weight: 500;
+			@include media-breakpoint-down(md) {
+				font-weight: 400;
+			}
+		}
 
 		.close {
 			position: absolute;
@@ -72,10 +84,13 @@
 	right: 0;
 	top: 0;
 	height: 100vh;
-  width: 600px;
+  width: 500px;
 
 	margin: 0 0 0 -50px;
-	padding: 300px 25px 50px;
+	padding: 150px 25px 30px;
+	@include media-breakpoint-down(md) {
+		padding: 200px 20px 30px;
+	}
 
 	color: black;
 	background: $bg_color;
@@ -90,6 +105,25 @@
 	letter-spacing: 1px;
   overflow: scroll;
 
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-moz-box-orient: vertical;
+	-moz-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-moz-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+
+
 	-webkit-transform-origin: 0% 0%;
 	-moz-transform-origin: 0% 0%;
 	-ms-transform-origin: 0% 0%;
@@ -101,12 +135,12 @@
 	-o-transform: translate(100%, 0);
 	transform: translate(100%, 0);
 
-	-webkit-transition: -webkit-transform 0.5s ease-out;
-	transition: -webkit-transform 0.5s ease-out;
-	-o-transition: -o-transform 0.5s ease-out;
-	-moz-transition: transform 0.5s ease-out, -moz-transform 0.5s ease-out;
-	transition: transform 0.5s ease-out;
-	transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out, -moz-transform 0.5s ease-out, -o-transform 0.5s ease-out;
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	transition: -webkit-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	-moz-transition: transform 0.3s ease-out, -moz-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out, -moz-transform 0.3s ease-out, -o-transform 0.3s ease-out;
 
 
 	@include media-breakpoint-down(md) {
@@ -116,9 +150,21 @@
 		margin: 0;
 	}
 
+	.description {
+		font-size: 	18px;
+		@include media-breakpoint-down(md) {
+			font-size: 16px;
+		}
+	}
+
 	.contactos h4 {
 	  font-size: 22px;
 	  margin-bottom: 15px;
 	  font-family: NBgrotesk-Bold, sans-serif;
+	}
+
+	.footer {
+		margin-top: 100px;
+		text-align: center;
 	}
 }
