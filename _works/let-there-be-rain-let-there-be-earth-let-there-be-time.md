@@ -21,6 +21,5 @@ cover_image: "/uploads/desenho-agua_2021_008-fotomont.jpg"
 images:
 - "/uploads/whatsapp-image-2021-03-29-at-15-45-04.jpeg"
 - "/uploads/desenho-agua_2021_012-fotomont.jpg"
-published: false
 
 ---
