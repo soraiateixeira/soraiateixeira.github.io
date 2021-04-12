@@ -1,9 +1,7 @@
 ---
 ano: 2020
 title: Public Devices for Therapy
-description: Projeto apoiado pela J<a href="http://www.jofebar.com/" title="Jofebar,
-  Panoramah!">http://www.jofebar.com/</a>!, <a href="https://plaka.porto.pt/pt/shuttle/"
-  title="Plaka Porto">https://plaka.porto.pt/pt/shuttle/</a><br>Istanbul Metropolitan
+description: Projeto apoiado pela Jofebar Panoramah!, Pláka Porto, Istanbul Metropolitan
   Municipality e Beşiktaş Municipality, apresentado na 5ª Bienal de Design de Istambul.<br>A
   mudança para o digital impôs a distância entre pessoas com a promoção de experiências
   virtuais através de redes sociais, onde o encontro físico está ausente. Em 2020,
