@@ -20,6 +20,15 @@ description: Projeto apoiado pela J<a href="http://www.jofebar.com/" title="Jofe
 cover_image: "/uploads/_dsc6363.jpg"
 images:
 - "/uploads/_dsc6363.jpg"
+- "/uploads/1.jpeg"
+- "/uploads/_mg_0525.JPG"
+- "/uploads/_mg_0520.JPG"
+- "/uploads/_mg_0521.JPG"
+- "/uploads/_mg_0515.JPG"
+- "/uploads/_mg_0469.JPG"
+- "/uploads/_mg_0342.JPG"
+- "/uploads/_mg_0430.JPG"
+- "/uploads/_mg_0377.JPG"
 published: false
 
 ---
