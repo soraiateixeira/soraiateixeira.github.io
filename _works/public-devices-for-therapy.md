@@ -1,7 +1,7 @@
 ---
 ano: 2020
 title: Public Devices for Therapy
-description: Projeto apoiado pela Jofebar Panoramah!, Pláka Porto, Istanbul Metropolitan
+description: 'Projeto apoiado pela Jofebar Panoramah!, Pláka Porto, Istanbul Metropolitan
   Municipality e Beşiktaş Municipality, apresentado na 5ª Bienal de Design de Istambul.<br>A
   mudança para o digital impôs a distância entre pessoas com a promoção de experiências
   virtuais através de redes sociais, onde o encontro físico está ausente. Em 2020,
@@ -14,7 +14,9 @@ description: Projeto apoiado pela Jofebar Panoramah!, Pláka Porto, Istanbul Met
   encorajam a observação e o toque, aproximando novamente as pessoas para reconstruir
   a sua confiança umas nas outras, ao mesmo tempo que regulam a proximidade entre
   elas em segurança. Ao fazê-lo, este desenho produz uma nova configuração de esferas
-  íntimas entre os domínios público e privado.
+  íntimas entre os domínios público e privado.<br><br>Curadoria: Mariana Pestana<br>Trabalho
+  Técnico de: Abel Tavares<br>Trabalho tipográfico: Joana Bravo<br>Fotografias: Equipa
+  Bienal Istambul; João Azevedo; Soraia Gomes Teixeira '
 cover_image: "/uploads/_dsc6363.jpg"
 images:
 - "/uploads/_dsc6363.jpg"
