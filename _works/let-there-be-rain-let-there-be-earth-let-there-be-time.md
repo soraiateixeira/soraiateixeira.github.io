@@ -20,7 +20,7 @@ description: 'O projeto que se segue, propõe a construção de uma rede de cole
 cover_image: "/uploads/desenho-agua_2021_008-fotomont.jpg"
 images:
 - "/uploads/desenho-agua_2021_008-fotomont.jpg"
-- "/uploads/whatsapp-image-2021-03-29-at-15-45-04.jpeg"
+- "/uploads/agua-01.jpg"
 - "/uploads/desenho-agua_2021_012-fotomont.jpg"
 
 ---
