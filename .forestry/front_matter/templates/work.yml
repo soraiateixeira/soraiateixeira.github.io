@@ -26,8 +26,5 @@ fields:
   name: images
   label: Images
 pages:
-- _works/cestos-1.md
 - _works/cestos.md
-- _works/marisas.md
 - _works/public-devices-for-therapy.md
-- _works/xia.md
