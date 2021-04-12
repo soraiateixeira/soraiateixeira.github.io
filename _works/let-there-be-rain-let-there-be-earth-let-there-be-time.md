@@ -16,7 +16,8 @@ description: 'O projeto que se segue, propõe a construção de uma rede de cole
   Assim, o objeto de coleta deve ser disponibilizado gratuitamente pelas entidades
   públicas e, previamente, a população deverá ser formada para que o usem da forma
   correta e para que se entenda este objeto enquanto equipamento público ainda que
-  em lugar privado.<br><br>Projeto para Driving The Human'
+  em lugar privado.<br><br>Projeto para Driving The Human<br>Trabalho técnico: Abel
+  Tavares'
 cover_image: "/uploads/paisagem-01.jpg"
 images:
 - "/uploads/paisagem-01.jpg"
