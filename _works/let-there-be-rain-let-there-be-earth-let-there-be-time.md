@@ -17,9 +17,9 @@ description: 'O projeto que se segue, propõe a construção de uma rede de cole
   públicas e, previamente, a população deverá ser formada para que o usem da forma
   correta e para que se entenda este objeto enquanto equipamento público ainda que
   em lugar privado.'
-cover_image: "/uploads/desenho-agua_2021_008-fotomont.jpg"
+cover_image: "/uploads/paisagem-01.jpg"
 images:
-- "/uploads/desenho-agua_2021_008-fotomont.jpg"
+- "/uploads/paisagem-01.jpg"
 - "/uploads/agua-01.jpg"
 - "/uploads/desenho-agua_2021_012-fotomont.jpg"
 
