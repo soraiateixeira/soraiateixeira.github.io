@@ -29,6 +29,5 @@ images:
 - "/uploads/_mg_0342.JPG"
 - "/uploads/_mg_0430.JPG"
 - "/uploads/_mg_0377.JPG"
-published: false
 
 ---
