@@ -1,21 +1,27 @@
 ---
 layout: default
 title: home
-sobre: Soraia Gomes Teixeira, vive e trabalha no Porto. Estudou Design Industrial
-  no Instituto Politécnico do Porto e o e Design de Produto na Escola Superior de
-  Artes e Design das Caldas da Rainha, tendo como tema de investigação prática “Como
-  o corpo molda o objecto e como o objecto molda o corpo”. Em 2015, enquanto finalista
-  da Mostra de Jovens Criadores Portugueses, representou Portugal na categoria de
-  Design de Equipamento, na VII Bienal da Comunidade de Países de Língua Portuguesa.
-  Em 2019 foi designer convidada para participar nas residências RARA do festival
-  WALK&amp;TALK. Atualmente, trabalha em nome próprio em colaboração com a industria
-  portuguesa , e leciona disciplinas de projeto enquanto professora assistente convidada
-  na Escola Superior de Media Artes e Design do Instituto Politécnico do Porto.
+sobre: Soraia Gomes Teixeira, vive e trabalha no Porto. Estudou Artes Visuais no ensino
+  secun- dário, fez a licenciatura em Design Industrial no Instituto Politécnico
+  do Porto e o mes- trado em Design de Produto na Escola Superior de Artes e Design
+  das Caldas da Rainha, tendo como tema de trabalho “Como o corpo molda o objecto
+  e como o objecto molda o corpo”, projeto orientado pelo designer e professor Miguel
+  Vieira Baptista. Paralelamente, estudou clarinete em várias academias de música
+  no Porto e em Espinho. Em 2015, enquanto finalista da Mostra de Jovens Criadores
+  Portugueses, representou Portugal na categoria de Design de Equipamento, na VII
+  Bienal da Comunidade de Países de Língua Portuguesa. Em 2019 foi designer convidada
+  por Miguel Flor, curador das residências RARA do festival WALK&amp;TALK, projeto
+  que promove o diálogo entre técnicas artesanais locais e o design.Em 2017, trabalhou
+  com o estúdio Ciszak Dalmas em Madrid. Frequentou o programa doutoral em Design
+  na Universidade de Aveiro iniciando uma investigação sobre a presença das mulheres
+  no Design Industrial em Portugal.<br>Atualmente, trabalha em nome próprio, leciona
+  disciplinas de projeto enquanto professora assistente convidada na Escola Superior
+  de Media Artes e design do Politécnico do Porto e frequenta o Doutoramento em Artes
+  e Design do EINA-Universidade Autónoma de Barcelona.
 email: soraiamgfteixeira@gmail.com
 outros_contactos: ''
 
 ---
-
 <header id="header">
 	<h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
 
