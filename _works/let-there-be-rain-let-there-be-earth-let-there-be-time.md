@@ -8,7 +8,7 @@ description: 'O projeto que se segue, propõe a construção de uma rede de cole
   de captar e filtrar a água da chuva, pontos de recolha de água que seja para o uso
   coletivo e diminuir a utilização de água potável em contextos onde esta é dispensável.Esta
   proposta, surge como um contributo para a utilização responsável do recurso da água,
-  para a desmarcantilização do mesmo, e assume-se como um equipamento de utilidade
+  para a desmercantilização do mesmo, e assume-se como um equipamento de utilidade
   pública que pretende dar visibilidade à utilização da água como outrora os sistemas
   de coleta e distribuição, tinham essa dimensão presente no espaço público.Este projeto
   propõe um compromisso entre entidades governativas e população, relativamente à
