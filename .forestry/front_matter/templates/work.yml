@@ -26,6 +26,7 @@ fields:
   name: images
   label: Images
 pages:
+- _works/instrumentos-de-concentracao-para-pares.md
 - _works/let-there-be-rain-let-there-be-earth-let-there-be-time.md
 - _works/marisas.md
 - _works/public-devices-for-therapy.md
