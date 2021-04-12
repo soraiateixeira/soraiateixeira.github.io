@@ -21,6 +21,5 @@ images:
 - "/uploads/2.jpg"
 - "/uploads/3.jpg"
 - "/uploads/1.jpg"
-published: false
 
 ---
