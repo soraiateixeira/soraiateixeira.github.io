@@ -1087,12 +1087,6 @@ main article .info .close svg {
     background-repeat: no-repeat;
     padding: 20px;
   }
-  @supports (mix-blend-mode: exclusion) {
-    #main_wrapper .project .project_thumbnail_mobile .title, #main_wrapper .project .project_thumbnail_mobile .date {
-      mix-blend-mode: exclusion;
-      color: white;
-    }
-  }
 }
 
 @media (max-width: 767.98px) {

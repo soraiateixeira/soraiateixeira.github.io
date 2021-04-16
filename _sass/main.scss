@@ -664,13 +664,6 @@ img {
 				background-repeat: no-repeat;
 
 				padding: 20px;
-
-				.title, .date {
-					@supports(mix-blend-mode: exclusion) {
-						mix-blend-mode: exclusion;
-						color: white;
-					}
-				}
 		  }
 		}
 		.project_info, .project_image {
