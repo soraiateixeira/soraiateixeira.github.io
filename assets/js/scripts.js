@@ -29,6 +29,8 @@ $(document).ready(function() {
 		$('.main-carousel').flickity({
 		  cellAlign: 'left',
 		  contain: true,
+			freeScroll: true,
+			dragThreshold: 10,
 			wrapAround: true,
 			pageDots: false,
 			percentPosition: true,
