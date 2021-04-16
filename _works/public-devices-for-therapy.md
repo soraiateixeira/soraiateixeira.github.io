@@ -17,7 +17,7 @@ description: 'A mudança para o digital impôs a distância entre pessoas com a 
   e Beşiktaş Municipality, apresentado na 5ª Bienal de Design de Istambul.<br><br>Curadoria:
   Mariana Pestana<br>Trabalho Técnico: Abel Tavares<br>Trabalho tipográfico: Joana
   Bravo<br>Fotografias: Equipa Bienal Istambul; João Azevedo; Soraia Gomes Teixeira'
-cover_image: "/uploads/_dsc6363.jpg"
+cover_image: "/uploads/dsc6363.jpg"
 images:
 - "/uploads/dsc6363.jpg"
 - "/uploads/1.jpeg"
