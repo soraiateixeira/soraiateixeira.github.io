@@ -25,6 +25,21 @@ fields:
 - type: image_gallery
   name: images
   label: Images
+- name: mobile_thumbnail_text_color
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - White
+    - Black
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  description: Depending on thumbnail image, choose text color between dark and ligh
+  label: Mobile Thumbnail Text Color
 pages:
 - _works/let-there-be-rain-let-there-be-earth-let-there-be-time.md
 - _works/marisas.md
