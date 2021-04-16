@@ -13,5 +13,6 @@ images:
 - "/uploads/41_marisas.jpg"
 - "/uploads/70_marisas.jpg"
 - "/uploads/51_marisas.jpg"
+color: white
 
 ---
