@@ -29,6 +29,6 @@ images:
 - "/uploads/amg_0342.jpg"
 - "/uploads/amg_0430.jpg"
 - "/uploads/amg_0377.jpg"
-mobile_thumbnail_text_color: Black
+mobile_thumbnail_text_color: White
 
 ---

@@ -24,5 +24,6 @@ images:
 - "/uploads/agua-11.jpg"
 - "/uploads/agua-01.jpg"
 - "/uploads/agua-10.jpg"
+mobile_thumbnail_text_color: Black
 
 ---
