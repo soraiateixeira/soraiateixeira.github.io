@@ -15,7 +15,7 @@ $(document).ready(function() {
 		vertical: true,
 		adaptableHeight: true,
 		centerMode: true,
-		draggable: false,
+		draggable: true,
 		prevArrow: $("#arrow_top"),
 		nextArrow: $("#arrow_bottom"),
 		accessibility: false,
@@ -27,14 +27,19 @@ $(document).ready(function() {
 
 	if ( !window.matchMedia('(max-width:767px)').matches) {
 		$('.main-carousel').flickity({
+			groupCells: '60%',
 		  cellAlign: 'left',
 		  contain: true,
-			freeScroll: true,
+			freeScroll: false,
 			dragThreshold: 10,
 			wrapAround: true,
 			pageDots: false,
 			percentPosition: true,
 			accessibility: true
+		});
+		$('.main-carousel').on( 'change.flickity', function( event, index ) {
+			var cs = $(this).attr('project_id');
+			$('.project[project_id='+cs+']').not(this).flickity( 'select', index );
 		});
 	}
 

@@ -82,7 +82,7 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 
 	{% assign ordered_pages = site.works %}
 	{% for work in ordered_pages %}
-	<article class="project main-carousel">
+	<article project_id="{{forloop.index}}" class="project main-carousel">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ work.cover_image }}&h=900&q=85&output=jpg')">
 			<h3 class="title">{{ work.title }}</h3>

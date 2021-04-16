@@ -709,6 +709,9 @@ img {
 				justify-content: flex-end;
 
 				.wrapper {
+					height: 100%;
+					padding: 50px 0;
+					overflow: scroll;
 					max-width: 600px;
 				}
 

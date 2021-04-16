@@ -85,6 +85,7 @@
 	top: 0;
 	height: 100vh;
   width: 500px;
+	overflow-x: hidden;
 
 	margin: 0 0 0 -50px;
 	padding: 150px 25px 30px;
@@ -157,10 +158,16 @@
 		}
 	}
 
-	.contactos h4 {
-	  font-size: 22px;
-	  margin-bottom: 15px;
-	  font-family: NBgrotesk-Bold, sans-serif;
+	.contactos {
+		&, & a {
+			max-width: 100%;
+			display: inline-block;
+		}
+		h4 {
+			font-size: 22px;
+			margin-bottom: 15px;
+			font-family: NBgrotesk-Bold, sans-serif;
+		}
 	}
 
 	.footer {
