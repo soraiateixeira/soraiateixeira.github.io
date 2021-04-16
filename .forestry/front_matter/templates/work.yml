@@ -22,7 +22,7 @@ fields:
     maxSize: 64
   label: Cover Image
   description: Image that appears on mobile. Should be landscape if possible.
-- name: mobile_thumbnail_text_color
+- name: color
   type: select
   default: ''
   config:
