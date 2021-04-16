@@ -28,8 +28,8 @@ fields:
   config:
     required: false
     options:
-    - White
-    - Black
+    - white
+    - black
     source:
       type: simple
       section: 
