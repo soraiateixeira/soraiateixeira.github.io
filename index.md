@@ -42,7 +42,7 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 
 
 
-<div id="main_slider_navigation">
+<div class="main_slider_navigation lateral">
 	<div id="arrow_left" class="arrow" onclick="prevSlideHorizontal(event)">
 		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<line x1="41.465" y1="21.8244" x2="1.90633" y2="21.8244" stroke="black" stroke-width="2"/>
@@ -57,19 +57,21 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 		<line x1="41.1131" y1="21.5275" x2="20.2928" y2="0.707109" stroke="black" stroke-width="2"/>
 		</svg>
 	</div>
+</div>
+<div class="main_slider_navigation vertical">
 	<div id="arrow_top" class="arrow">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="21.1755" y1="41.5996" x2="21.1755" y2="2.04092" stroke="black" stroke-width="2"/>
-		<line x1="20.5061" y1="1.62853" x2="41.3265" y2="22.4489" stroke="black" stroke-width="2"/>
-		<line x1="21.5275" y1="2.02132" x2="0.707107" y2="22.8417" stroke="black" stroke-width="2"/>
-		</svg>
+	<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<line x1="21.1755" y1="41.5996" x2="21.1755" y2="2.04092" stroke="black" stroke-width="2"/>
+	<line x1="20.5061" y1="1.62853" x2="41.3265" y2="22.4489" stroke="black" stroke-width="2"/>
+	<line x1="21.5275" y1="2.02132" x2="0.707107" y2="22.8417" stroke="black" stroke-width="2"/>
+	</svg>
 	</div>
 	<div id="arrow_bottom" class="arrow">
-		<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-		<line x1="21.8245" y1="1.48993" x2="21.8245" y2="41.0486" stroke="black" stroke-width="2"/>
-		<line x1="22.4939" y1="41.461" x2="1.67355" y2="20.6407" stroke="black" stroke-width="2"/>
-		<line x1="21.4725" y1="41.0682" x2="42.2929" y2="20.2479" stroke="black" stroke-width="2"/>
-		</svg>
+	<svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<line x1="21.8245" y1="1.48993" x2="21.8245" y2="41.0486" stroke="black" stroke-width="2"/>
+	<line x1="22.4939" y1="41.461" x2="1.67355" y2="20.6407" stroke="black" stroke-width="2"/>
+	<line x1="21.4725" y1="41.0682" x2="42.2929" y2="20.2479" stroke="black" stroke-width="2"/>
+	</svg>
 	</div>
 </div>
 

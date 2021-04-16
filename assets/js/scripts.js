@@ -18,12 +18,12 @@ $(document).ready(function() {
 		draggable: false,
 		prevArrow: $("#arrow_top"),
 		nextArrow: $("#arrow_bottom"),
+		accessibility: false,
 		responsive: [{
 			breakpoint: 767,
 			settings: "unslick"
 		}]
 	})
-
 
 	if ( !window.matchMedia('(max-width:767px)').matches) {
 		$('.main-carousel').flickity({
@@ -31,8 +31,8 @@ $(document).ready(function() {
 		  contain: true,
 			wrapAround: true,
 			pageDots: false,
-			freeScroll: true,
-			freeScrollFriction: 0.03
+			percentPosition: true,
+			accessibility: true
 		});
 	}
 
@@ -57,12 +57,12 @@ $(document).ready(function() {
 
 function prevSlideHorizontal(event) {
 	event.stopPropagation();
-	$('#main_wrapper>.slick-list>.slick-track>.slick-current').flickity('previous');
+	$('.slick-current').flickity('previous', true);
 	event.preventDefault();
 }
 
 function nextSlideHorizontal(event) {
 	event.stopPropagation();
-	$('#main_wrapper>.slick-list>.slick-track>.slick-current').flickity('next');
+	$('.slick-current').flickity('next', true);
 	event.preventDefault();
 }
