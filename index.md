@@ -85,8 +85,8 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 	<article project_id="{{forloop.index}}" class="project main-carousel">
 
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ work.cover_image }}&h=900&q=85&output=jpg')">
-			<h3 class="title" style="color:{{ work.mobile_thumbnail_text_color }}">{{ work.title }}</h3>
-			<h4 class="date">{{ work.ano }}</h4>
+			<h3 class="title" style="color:{{ work.color }}">{{ work.title }}</h3>
+			<h4 class="date" style="color:{{ work.color }}">{{ work.ano }}</h4>
 
 		</div>
 		<div class="fechar_popup">
