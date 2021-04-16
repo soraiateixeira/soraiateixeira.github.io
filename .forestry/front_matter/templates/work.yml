@@ -22,9 +22,6 @@ fields:
     maxSize: 64
   label: Cover Image
   description: Image that appears on mobile. Should be landscape if possible.
-- type: image_gallery
-  name: images
-  label: Images
 - name: mobile_thumbnail_text_color
   type: select
   default: ''
@@ -40,6 +37,9 @@ fields:
       path: 
   description: Depending on thumbnail image, choose text color between dark and ligh
   label: Mobile Thumbnail Text Color
+- type: image_gallery
+  name: images
+  label: Images
 pages:
 - _works/let-there-be-rain-let-there-be-earth-let-there-be-time.md
 - _works/marisas.md
