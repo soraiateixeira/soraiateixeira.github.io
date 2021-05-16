@@ -1061,7 +1061,6 @@ main article .info .close svg {
     left: 0;
     z-index: 800;
     height: 100vh;
-    height: calc(100 * var(--vh));
     width: 100vw;
     overflow: scroll;
     background: white;
