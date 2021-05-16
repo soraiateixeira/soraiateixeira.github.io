@@ -809,6 +809,7 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: calc(100 * var(--vh));
   background: white;
   z-index: 9999999;
 }
@@ -886,6 +887,7 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: calc(100 * var(--vh));
   pointer-events: none;
   z-index: 9;
 }
@@ -1051,6 +1053,7 @@ main article .info .close svg {
   }
   #main_wrapper .project:first-child {
     margin-top: 40vh;
+    margin-top: calc(40 * var(--vh));
   }
   #main_wrapper .project.popup_active {
     position: fixed;
@@ -1058,6 +1061,7 @@ main article .info .close svg {
     left: 0;
     z-index: 800;
     height: 100vh;
+    height: calc(100 * var(--vh));
     width: 100vw;
     overflow: scroll;
     background: white;
@@ -1108,6 +1112,7 @@ main article .info .close svg {
     display: block;
     width: 100%;
     height: 40vh;
+    height: calc(40 * var(--vh));
     min-height: 250px;
     max-height: 350px;
     -moz-background-size: cover;
@@ -1127,6 +1132,7 @@ main article .info .close svg {
 @media (min-width: 768px) {
   #main_wrapper .project .slide {
     height: 75vh;
+    height: calc(75 * var(--vh));
     max-width: 95vw;
   }
 }
