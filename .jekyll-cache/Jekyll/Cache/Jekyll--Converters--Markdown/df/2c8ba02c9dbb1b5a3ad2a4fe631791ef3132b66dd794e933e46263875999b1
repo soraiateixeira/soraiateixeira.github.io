@@ -1,4 +1,4 @@
-I"3<header id="header">
+I"¤3<header id="header">
 	<h1>â€”SORAIA<br />GOMES<br />TEIXEIRA</h1>
 
 	<nav role="navigation">
@@ -63,11 +63,11 @@
 
 	
 	
-	<article class="project main-carousel">
-id="1"
+	<article project_id="1" class="project main-carousel">
+
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
-			<h3 class="title">Let There Be Rain, Let There Be Earth, Let There Be Time!</h3>
-			<h4 class="date">2021</h4>
+			<h3 class="title" style="color:black">Let There Be Rain, Let There Be Earth, Let There Be Time!</h3>
+			<h4 class="date" style="color:black">2021</h4>
 
 		</div>
 		<div class="fechar_popup">
@@ -106,11 +106,11 @@ id="1"
 
 	</article>
 	
-	<article class="project main-carousel">
-id="2"
+	<article project_id="2" class="project main-carousel">
+
 		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
-			<h3 class="title">Marisas</h3>
-			<h4 class="date">2019</h4>
+			<h3 class="title" style="color:white">Marisas</h3>
+			<h4 class="date" style="color:white">2019</h4>
 
 		</div>
 		<div class="fechar_popup">
@@ -149,11 +149,11 @@ id="2"
 
 	</article>
 	
-	<article class="project main-carousel">
-id="3"
-		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/_dsc6363.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
-			<h3 class="title">Public Devices for Therapy</h3>
-			<h4 class="date">2020</h4>
+	<article project_id="3" class="project main-carousel">
+
+		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=900&amp;q=85&amp;output=jpg')">
+			<h3 class="title" style="color:white">Public Devices for Therapy</h3>
+			<h4 class="date" style="color:white">2020</h4>
 
 		</div>
 		<div class="fechar_popup">

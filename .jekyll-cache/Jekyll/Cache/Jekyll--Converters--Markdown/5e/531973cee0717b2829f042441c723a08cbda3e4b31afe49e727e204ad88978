@@ -1,37 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-
-<head>
-	<title>Soraia Teixeira</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<meta name="mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-
-	<link rel="canonical" href="https://.com">
-
-	<meta name="theme-color" content="#000000">
-	<!--<link href="files/web.png" rel="shortcut icon" type="image/x-icon">-->
-
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="BrunoSantos@brunobrunodesigndesign.com">
-
-	<link rel="stylesheet" href="/assets/css/main.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	<link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@2.2.2/dist/flickity.css" />
-
-	<script type="text/javascript">
-		let vh = window.innerHeight * 0.01;
-		document.documentElement.style.setProperty('--vh', `${vh}px`);
-	</script>
-
-	<script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
-
-</head><body>
-
-	<div id="preload">
+I"e<div id="preload">
  <h1>—SORAIA<br />GOMES<br />TEIXEIRA</h1>
 </div>
 
@@ -125,38 +92,38 @@
 
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/paisagem-01.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-11.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-01.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/agua-10.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
@@ -188,38 +155,38 @@
 
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/26_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/41_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/70_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/51_marisas.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
@@ -251,92 +218,92 @@
 
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/dsc6363.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/1.jpeg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0525.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0520.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0521.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0515.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0469.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0342.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0430.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=900&amp;q=1&amp;output=jpg" />
-			<picture class="mobile_break">
+			<img loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=900&amp;q=85&amp;output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=400&amp;q=1&amp;output=jpg" style="width:auto;" />
+			<picture>
 			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=900&amp;q=85&amp;output=jpg" />
 			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=600&amp;q=85&amp;output=jpg" />
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=400&amp;q=85&amp;output=jpg" />
+			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt/uploads/amg_0377.jpg&amp;h=400&amp;q=85&amp;output=jpg" style="width:auto;" />
 			</picture>
 		</div>
 		
@@ -351,9 +318,4 @@
 
 <script type="text/javascript" src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
 
-
-
-	<script src="/assets/js/scripts.js" charset="utf-8"></script>
-</body>
-
-</html>
+:ET
