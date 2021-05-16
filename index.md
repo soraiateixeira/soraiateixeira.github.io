@@ -116,8 +116,8 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 		<div class="project_image slide carousel-cell">
 			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=1&output=jpg">
 			<picture class="mobile_break">
-			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg">
-			  <source media="(min-width:350px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=500&q=85&output=jpg">
+			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&dpr=1.5&q=85&output=jpg">
+			  <source media="(min-width:350px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=600&dpr=1.5&q=85&output=jpg">
 				<source media="(min-width:250px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=300&q=85&output=jpg">
 			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=350&q=10&blur=5&output=jpg">
 			</picture>
