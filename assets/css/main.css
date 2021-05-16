@@ -252,6 +252,10 @@ ul li {
   margin-bottom: 10px;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -274,7 +278,7 @@ body {
     position: fixed;
     height: 100vh;
     height: calc(100 * var(--vh));
-    overflow: scroll;
+    overflow: hidden;
   }
   body .body_wrapper {
     overflow: scroll;
@@ -1084,10 +1088,14 @@ main article .info .close svg {
     height: 100vh;
     height: calc(100 * var(--vh));
     width: 100vw;
-    overflow: scroll;
+    overflow: hidden;
     background: white;
     margin: 0 !important;
     display: block;
+  }
+  #main_wrapper .project.popup_active .popup_active_wrapper {
+    height: 100%;
+    overflow: scroll;
   }
   #main_wrapper .project.popup_active .logo_popup {
     display: block;
