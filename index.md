@@ -13,11 +13,6 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
   title="https://www.instagram.com/soraiagomesteixeira">www.instagram.com/soraiagomesteixeira</a>
 
 ---
-
-<div id="preload">
- <h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
-</div>
-
 <header id="header">
 	<h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
 
@@ -114,12 +109,7 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 
 		{% for image in work.images %}
 		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=1&output=jpg">
-			<picture class="mobile_break">
-			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg">
-			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=600&q=85&output=jpg">
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=400&q=85&output=jpg">
-			</picture>
+			<img src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg">
 		</div>
 		{% endfor %}
 

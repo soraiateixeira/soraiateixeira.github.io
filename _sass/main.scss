@@ -61,6 +61,7 @@ $innerWidthXL: 1450px;
 @import "_fonts.scss";
 
 
+
 * {
   -webkit-overflow-scrolling: touch;
   -webkit-box-sizing: border-box;
@@ -71,16 +72,8 @@ $innerWidthXL: 1450px;
 	font-family: 'Basier Circle', 'Roboto', 'Helvetica', 'Arial', sans-serif;
 	font-weight: 400;
 
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
-
-
 	&:hover {
 		outline: none;
-	}
-
-	&::-webkit-scrollbar {
-	  display: none;
 	}
 }
 
@@ -395,28 +388,6 @@ img {
 
 /* MAIN */
 
-
-#preload {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	background: white;
-	z-index: 9999999;
-
-	h1 {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		-webkit-transform: translate3d(-50%,-50%,0);
-		-moz-transform: translate3d(-50%,-50%,0);
-		transform: translate3d(-50%,-50%,0);
-		font-size: 20px;
-		will-change: auto;
-	}
-}
-
 #header {
   width: 100%;
   height: 100px;
@@ -673,8 +644,8 @@ img {
 				right: 20px;
 				padding: 10px;
 				svg {
-					width: 25px;
-					height: 25px;
+					width: 30px;
+					height: 30px;
 				}
 			}
 		}
@@ -719,13 +690,6 @@ img {
 				display: -moz-box;
 				display: -ms-flexbox;
 				display: flex;
-				-webkit-box-orient: vertical;
-				-webkit-box-direction: normal;
-				-webkit-flex-direction: column;
-				-moz-box-orient: vertical;
-				-moz-box-direction: normal;
-				-ms-flex-direction: column;
-				flex-direction: column;
 				-webkit-box-align: end;
 				-webkit-align-items: flex-end;
 				-moz-box-align: end;
@@ -736,12 +700,6 @@ img {
 				-moz-box-pack: end;
 				-ms-flex-pack: end;
 				justify-content: flex-end;
-				-webkit-box-pack: center;
-				-webkit-justify-content: center;
-				-moz-box-pack: center;
-				-ms-flex-pack: center;
-				justify-content: center;
-
 
 				.wrapper {
 					height: 100%;
@@ -765,7 +723,7 @@ img {
 				}
 			}
 
-			img, picture {
+			img {
 				height: 100%;
 				@include media-breakpoint-down(md) {
 					width: 100%;
