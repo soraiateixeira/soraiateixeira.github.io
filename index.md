@@ -102,6 +102,8 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 			</svg>
 		</div>
 
+		<h2 class="logo_popup">—SORAIA<br>GOMES<br>TEIXEIRA</h2>
+
 		<div class="project_info slide carousel-cell">
 			<div class="wrapper">
 				<h3 class="title">{{ work.title }}</h3>

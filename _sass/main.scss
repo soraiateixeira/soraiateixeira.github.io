@@ -637,6 +637,10 @@ img {
 		height: 100% !important;
 	}
 
+	.logo_popup {
+		display: none;
+	}
+
 	.project {
 		overflow: hidden;
 		@include media-breakpoint-down(md) {
@@ -653,12 +657,21 @@ img {
 				left: 0;
 				z-index: 800;
 				height: 100vh;
+				height: calc(100 * var(--vh);
 				width: 100vw;
 				overflow: scroll;
 				background: white;
 				margin: 0 !important;
 
 				display: block;
+
+				.logo_popup {
+					display: block;
+					position: absolute;
+					top: 20px;
+					left: 20px;
+					font-size: 22px;
+				}
 
 				.fechar_popup {
 					display: block;
