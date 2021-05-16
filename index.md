@@ -13,6 +13,10 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
   title="https://www.instagram.com/soraiagomesteixeira">www.instagram.com/soraiagomesteixeira</a>
 
 ---
+
+<div id="preload">
+</div>
+
 <header id="header">
 	<h1>—SORAIA<br>GOMES<br>TEIXEIRA</h1>
 
