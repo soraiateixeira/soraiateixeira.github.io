@@ -4,6 +4,11 @@ description:
 
 collections:
   works:
+    sort_by: order
+
+
+docs_list_title: ACME Documentation
+docs:
 
 exclude:
   - Gemfile

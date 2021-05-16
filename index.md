@@ -86,7 +86,7 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 <main id="main_wrapper">
 
 
-	{% assign ordered_pages = site.works | sort: 'order' %}
+	{% assign ordered_pages = site.works %}
 	{% for work in ordered_pages %}
 	<article project_id="{{forloop.index}}" class="project main-carousel">
 
