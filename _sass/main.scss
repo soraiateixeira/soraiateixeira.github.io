@@ -185,6 +185,9 @@ ul {
 }
 
 
+html {
+	overflow: hidden;
+}
 
 
 body {
@@ -200,6 +203,18 @@ body {
   @include media-breakpoint-down(sm) {
     font-size: 8px;
   }
+
+	@include media-breakpoint-down(md) {
+		position: fixed;
+		height: 100vh;
+		height: calc(100 * var(--vh));
+		overflow: hidden;
+
+		.body_wrapper {
+			overflow: scroll;
+			height: 100%;
+		}
+	}
 }
 
 
@@ -402,6 +417,7 @@ img {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
+	height: calc(100 * var(--vh);
 	background: white;
 	z-index: 9999999;
 
@@ -477,6 +493,7 @@ img {
 	left: 0;
 	width: 100vw;
 	height: 100vh;
+	height: calc(100 * var(--vh);
 	pointer-events: none;
 	z-index: 9;
 
@@ -608,6 +625,8 @@ img {
 /* SECTIONS */
 
 
+
+
 #main_wrapper {
 	height: 100vh;
 	@include media-breakpoint-down(md) {
@@ -621,6 +640,10 @@ img {
 		height: 100% !important;
 	}
 
+	.logo_popup {
+		display: none;
+	}
+
 	.project {
 		overflow: hidden;
 		@include media-breakpoint-down(md) {
@@ -628,6 +651,7 @@ img {
 
 			&:first-child {
 				margin-top: 40vh;
+				margin-top: calc(40 * var(--vh);
 			}
 
 			&.popup_active {
@@ -636,12 +660,26 @@ img {
 				left: 0;
 				z-index: 800;
 				height: 100vh;
+				height: calc(100 * var(--vh);
 				width: 100vw;
-				overflow: scroll;
+				overflow: hidden;
 				background: white;
 				margin: 0 !important;
 
 				display: block;
+
+				.main-carousel_wrapper {
+					height: 100%;
+					overflow: scroll;
+				}
+
+				.logo_popup {
+					display: block;
+					position: absolute;
+					top: 20px;
+					left: 20px;
+					font-size: 22px;
+				}
 
 				.fechar_popup {
 					display: block;
@@ -684,6 +722,7 @@ img {
 		    display: block;
 				width: 100%;
 				height: 40vh;
+				height: calc(40 * var(--vh);
 				min-height: 250px;
 				max-height: 350px;
 
@@ -704,6 +743,7 @@ img {
 		.slide {
 			@include media-breakpoint-up(md) {
 				height: 75vh;
+				height: calc(75 * var(--vh);
 				max-width: 95vw;
 			}
 
