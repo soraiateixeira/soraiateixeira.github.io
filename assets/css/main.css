@@ -252,6 +252,10 @@ ul li {
   margin-bottom: 10px;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   height: 100%;
   margin: 0;
@@ -266,6 +270,19 @@ body {
 @media (max-width: 374.98px) {
   body {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body {
+    position: fixed;
+    height: 100vh;
+    height: calc(100 * var(--vh));
+    overflow: hidden;
+  }
+  body .body_wrapper {
+    overflow: scroll;
+    height: 100%;
   }
 }
 
@@ -770,9 +787,13 @@ main article .info .close svg {
 @media (max-width: 767.98px) {
   #menu {
     height: 100vh;
-    width: 100vw;
+    height: -webkit-calc(100 * var(--vh));
+    height: -moz-calc(100 * var(--vh));
+    height: calc(100 * var(--vh));
+    max-width: 100vw;
     border: 1px solid black;
     margin: 0;
+    overflow-x: hidden;
   }
 }
 
@@ -809,6 +830,7 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: calc(100 * var(--vh));
   background: white;
   z-index: 9999999;
 }
@@ -886,6 +908,7 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: calc(100 * var(--vh));
   pointer-events: none;
   z-index: 9;
 }
@@ -1041,6 +1064,10 @@ main article .info .close svg {
   height: 100% !important;
 }
 
+#main_wrapper .logo_popup {
+  display: none;
+}
+
 #main_wrapper .project {
   overflow: hidden;
 }
@@ -1051,6 +1078,7 @@ main article .info .close svg {
   }
   #main_wrapper .project:first-child {
     margin-top: 40vh;
+    margin-top: calc(40 * var(--vh));
   }
   #main_wrapper .project.popup_active {
     position: fixed;
@@ -1058,11 +1086,23 @@ main article .info .close svg {
     left: 0;
     z-index: 800;
     height: 100vh;
+    height: calc(100 * var(--vh));
     width: 100vw;
-    overflow: scroll;
+    overflow: hidden;
     background: white;
     margin: 0 !important;
     display: block;
+  }
+  #main_wrapper .project.popup_active .main-carousel_wrapper {
+    height: 100%;
+    overflow: scroll;
+  }
+  #main_wrapper .project.popup_active .logo_popup {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 22px;
   }
   #main_wrapper .project.popup_active .fechar_popup {
     display: block;
@@ -1108,6 +1148,7 @@ main article .info .close svg {
     display: block;
     width: 100%;
     height: 40vh;
+    height: calc(40 * var(--vh));
     min-height: 250px;
     max-height: 350px;
     -moz-background-size: cover;
@@ -1127,6 +1168,7 @@ main article .info .close svg {
 @media (min-width: 768px) {
   #main_wrapper .project .slide {
     height: 75vh;
+    height: calc(75 * var(--vh));
     max-width: 95vw;
   }
 }
