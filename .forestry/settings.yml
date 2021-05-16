@@ -8,7 +8,7 @@ sections:
   label: Settings
   create: all
 - type: jekyll-posts
-  label: Posts
+  label: Works
   create: all
 upload_dir: uploads
 public_path: "/uploads"
