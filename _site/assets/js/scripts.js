@@ -21,7 +21,7 @@ $(document).ready(function() {
 					event.preventDefault();
 					event.stopPropagation();
 
-					var scrollRate = 1;
+					var scrollRate = 0.8;
 					var $t = $(this);
 					var dy = event.originalEvent.deltaY * scrollRate;
 					$t.scrollTop($t.scrollTop() + dy);
@@ -69,7 +69,7 @@ $(document).ready(function() {
 		})
 
 		if ( !window.matchMedia('(max-width:767px)').matches) {
-				$('.main-carousel').flickity({
+				$('.main-carousel .main-carousel_wrapper').flickity({
 					groupCells: '60%',
 					cellAlign: 'left',
 					contain: true,
