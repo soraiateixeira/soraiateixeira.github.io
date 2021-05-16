@@ -89,39 +89,45 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 	{% assign ordered_pages = site.works %}
 	{% for work in ordered_pages %}
 	<article project_id="{{forloop.index}}" class="project main-carousel">
+		<div class="main-carousel_wrapper">
 
-		<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ work.cover_image }}&h=900&q=85&output=jpg')">
-			<h3 class="title" style="color:{{ work.color }}">{{ work.title }}</h3>
-			<h4 class="date" style="color:{{ work.color }}">{{ work.ano }}</h4>
+			<div class="project_thumbnail_mobile" style="background-image:url('https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ work.cover_image }}&h=900&q=85&output=jpg')">
+				<h3 class="title" style="color:{{ work.color }}">{{ work.title }}</h3>
+				<h4 class="date" style="color:{{ work.color }}">{{ work.ano }}</h4>
 
-		</div>
-		<div class="fechar_popup">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-				 viewBox="0 0 100 100.8">
-			<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 "/>
-			</svg>
-		</div>
+			</div>
+			<div class="fechar_popup">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 100 100.8">
+				<polygon stroke="#000000" fill="#000000" points="100,9.1 90.9,0 50,40.9 9.1,0 0,9.1 40.9,50 0,90.9 9.1,100 50,59.1 90.9,100 100,90.9 59.1,50 "/>
+				</svg>
+			</div>
 
-		<div class="project_info slide carousel-cell">
-			<div class="wrapper">
-				<h3 class="title">{{ work.title }}</h3>
-				<h4 class="date">{{ work.ano }}</h4>
-				<div class="description">
-					<p>{{ work.description }}</p>
+			<h2 class="logo_popup">—SORAIA<br>GOMES<br>TEIXEIRA</h2>
+
+			<div class="project_info slide carousel-cell">
+				<div class="wrapper">
+					<h3 class="title">{{ work.title }}</h3>
+					<h4 class="date">{{ work.ano }}</h4>
+					<div class="description">
+						<p>{{ work.description }}</p>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		{% for image in work.images %}
-		<div class="project_image slide carousel-cell">
-			<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=1&output=jpg">
-			<picture class="mobile_break">
-			  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg">
-			  <source media="(min-width:450px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=600&q=85&output=jpg">
-			  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=400&q=85&output=jpg">
-			</picture>
+			{% for image in work.images %}
+			<div class="project_image slide carousel-cell">
+				<img class="desktop_break" loading="lazy" data-flickity-lazyload="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=85&output=jpg" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&q=1&output=jpg">
+				<picture class="mobile_break">
+				  <source media="(min-width:768px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&h=900&dpr=1.5&q=85&output=jpg">
+				  <source media="(min-width:350px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=600&dpr=1.5&q=85&output=jpg">
+					<source media="(min-width:250px)" srcset="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=300&q=85&output=jpg">
+				  <img loading="lazy" src="https://images.weserv.nl?url=http://soraiagomesteixeira.pt{{ image }}&w=350&q=10&blur=5&output=jpg">
+				</picture>
+			</div>
+			{% endfor %}
+
 		</div>
-		{% endfor %}
 
 	</article>
 	{% endfor %}
