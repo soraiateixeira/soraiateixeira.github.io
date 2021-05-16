@@ -200,6 +200,18 @@ body {
   @include media-breakpoint-down(sm) {
     font-size: 8px;
   }
+
+	@include media-breakpoint-down(md) {
+		position: fixed;
+		height: 100vh;
+		height: calc(100 * var(--vh));
+		overflow: scroll;
+
+		.body_wrapper {
+			overflow: scroll;
+			height: 100%;
+		}
+	}
 }
 
 
@@ -608,6 +620,8 @@ img {
 
 
 /* SECTIONS */
+
+
 
 
 #main_wrapper {
