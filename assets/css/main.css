@@ -1093,7 +1093,7 @@ main article .info .close svg {
     margin: 0 !important;
     display: block;
   }
-  #main_wrapper .project.popup_active .popup_active_wrapper {
+  #main_wrapper .project.popup_active .main-carousel_wrapper {
     height: 100%;
     overflow: scroll;
   }
