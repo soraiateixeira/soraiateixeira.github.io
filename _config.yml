@@ -3,7 +3,8 @@ author: Bruno Santos
 description:
 
 collections:
-  works:
+ works:
+  sort_by: order
 
 
 docs_list_title: ACME Documentation

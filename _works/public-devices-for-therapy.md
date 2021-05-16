@@ -31,5 +31,6 @@ images:
 - "/uploads/amg_0377.jpg"
 mobile_thumbnail_text_color: White
 color: white
+order: 2
 
 ---

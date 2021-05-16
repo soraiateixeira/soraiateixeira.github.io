@@ -26,5 +26,6 @@ images:
 - "/uploads/agua-10.jpg"
 mobile_thumbnail_text_color: Black
 color: black
+order: 3
 
 ---
