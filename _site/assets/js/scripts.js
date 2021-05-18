@@ -32,7 +32,7 @@ $(document).ready(function() {
 							$("#main_wrapper").css('overflow', 'hidden');
 							setTimeout(function () {
 								$("#main_wrapper").on("wheel mousewheel DOMMouseScroll", slickVerticalWheel)
-							}, 300);
+							}, 400);
 							return false;
 					} else {
 							$('#main_wrapper').slick('slickPrev');
@@ -40,7 +40,7 @@ $(document).ready(function() {
 							$("#main_wrapper").css('overflow', 'hidden');
 							setTimeout(function () {
 								$("#main_wrapper").on("wheel mousewheel DOMMouseScroll", slickVerticalWheel)
-							}, 300);
+							}, 400);
 							return false;
 					}
 			};
@@ -68,25 +68,24 @@ $(document).ready(function() {
 			}]
 		})
 
-		if ( !window.matchMedia('(max-width:767px)').matches) {
-				$('.main-carousel .main-carousel_wrapper').flickity({
-					groupCells: '60%',
-					cellAlign: 'left',
-					contain: true,
-					freeScroll: false,
-					dragThreshold: 10,
-					wrapAround: true,
-					pageDots: false,
-					lazyLoad: 3,
-					percentPosition: true,
-					accessibility: true
-				});
-				$('.main-carousel').on( 'change.flickity', function( event, index ) {
+		$('.main-carousel .main-carousel_wrapper').flickity({
+			groupCells: '60%',
+			cellAlign: 'left',
+			contain: true,
+			freeScroll: false,
+			dragThreshold: 10,
+			wrapAround: true,
+			pageDots: false,
+			lazyLoad: 3,
+			percentPosition: true,
+			accessibility: true,
+			on: {
+		    change: function( index ) {
 					var cs = $(this).attr('project_id');
-					$('.project[project_id='+cs+']').not(this).flickity( 'select', index );
-				});
-		}
-
+					$('.project[project_id='+cs+']').not(this).flickity().flickity( 'select', index );
+		    }
+		  }
+		});
 
 		if (window.matchMedia('(max-width:767px)').matches) {
 			$(".project .project_thumbnail_mobile").on("click", function(e) {
@@ -114,12 +113,12 @@ $(document).ready(function() {
 
 function prevSlideHorizontal(event) {
 	event.stopPropagation();
-	$('.slick-current').flickity('previous', true);
+	$('.slick-current .main-carousel_wrapper').flickity('previous', true);
 	event.preventDefault();
 }
 
 function nextSlideHorizontal(event) {
 	event.stopPropagation();
-	$('.slick-current').flickity('next', true);
+	$('.slick-current .main-carousel_wrapper').flickity('next', true);
 	event.preventDefault();
 }
