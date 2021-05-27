@@ -9,7 +9,6 @@
   --black: #2c2c2c;
   --white: #ffffff;
   --gray: #b3b3b3;
-  scroll-behavior: smooth;
 }
 
 .black {
@@ -256,11 +255,19 @@ html {
   overflow: hidden;
 }
 
+@media (min-width: 768px) {
+  html {
+    height: 100%;
+  }
+}
+
 body {
   height: 100%;
   margin: 0;
   color: black;
   background-color: white;
+  height: 100%;
+  overflow: hidden;
   /* TYPOGRAPHY */
   font-family: 'Basier Circle', 'Roboto', 'Helvetica', 'Arial', sans-serif;
   font-weight: 400;
@@ -277,12 +284,21 @@ body {
   body {
     position: fixed;
     height: 100vh;
+    height: -webkit-calc(100 * var(--vh));
+    height: -moz-calc(100 * var(--vh));
     height: calc(100 * var(--vh));
     overflow: hidden;
   }
   body .body_wrapper {
     overflow: scroll;
     height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body .body_wrapper {
+    height: 100%;
+    overflow: hidden;
   }
 }
 
@@ -497,14 +513,19 @@ img {
 /* MAIN */
 main {
   width: 100vw;
-  height: -webkit-calc(100 * var(--vh));
-  height: -moz-calc(100 * var(--vh));
-  height: calc(100 * var(--vh));
   /*
     display: flex;
     justify-content: center;
     align-items: center;
 */
+}
+
+@media (max-width: 767.98px) {
+  main {
+    height: -webkit-calc(100 * var(--vh));
+    height: -moz-calc(100 * var(--vh));
+    height: calc(100 * var(--vh));
+  }
 }
 
 main article {
@@ -522,6 +543,12 @@ main article .imagens {
 main article .imagens img {
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  main article.is-clone {
+    display: none;
+  }
 }
 
 .contain {
@@ -830,6 +857,8 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: -webkit-calc(100 * var(--vh));
+  height: -moz-calc(100 * var(--vh));
   height: calc(100 * var(--vh));
   background: white;
   z-index: 9999999;
@@ -908,6 +937,8 @@ main article .info .close svg {
   left: 0;
   width: 100vw;
   height: 100vh;
+  height: -webkit-calc(100 * var(--vh));
+  height: -moz-calc(100 * var(--vh));
   height: calc(100 * var(--vh));
   pointer-events: none;
   z-index: 9;
@@ -1046,7 +1077,9 @@ main article .info .close svg {
 
 /* SECTIONS */
 #main_wrapper {
-  height: 100vh;
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @media (max-width: 767.98px) {
@@ -1078,6 +1111,8 @@ main article .info .close svg {
   }
   #main_wrapper .project:first-child {
     margin-top: 40vh;
+    margin-top: -webkit-calc(40 * var(--vh));
+    margin-top: -moz-calc(40 * var(--vh));
     margin-top: calc(40 * var(--vh));
   }
   #main_wrapper .project.popup_active {
@@ -1086,6 +1121,8 @@ main article .info .close svg {
     left: 0;
     z-index: 800;
     height: 100vh;
+    height: -webkit-calc(100 * var(--vh));
+    height: -moz-calc(100 * var(--vh));
     height: calc(100 * var(--vh));
     width: 100vw;
     overflow: hidden;
@@ -1148,6 +1185,8 @@ main article .info .close svg {
     display: block;
     width: 100%;
     height: 40vh;
+    height: -webkit-calc(40 * var(--vh));
+    height: -moz-calc(40 * var(--vh));
     height: calc(40 * var(--vh));
     min-height: 250px;
     max-height: 350px;
@@ -1168,6 +1207,8 @@ main article .info .close svg {
 @media (min-width: 768px) {
   #main_wrapper .project .slide {
     height: 75vh;
+    height: -webkit-calc(75 * var(--vh));
+    height: -moz-calc(75 * var(--vh));
     height: calc(75 * var(--vh));
     max-width: 95vw;
   }
