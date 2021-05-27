@@ -38,7 +38,7 @@ outros_contactos: Porto, Portugal<br><a href="https://www.instagram.com/soraiago
 				</div>
 				<div class="footer">
 					<h6>@ 2021</h6>
-					<h6>website by <a href="https://bru-no.com" target="_blank">bru-no</a> and <a href="https://cosmvs.com" target="_blank">cosmvs</a></h6>
+					<h6>website by <a href="https://bru-no.com" target="_blank">bru-no</a> and <a href="https://cosmvs.com" target="_blank">josé torres (cosmvs)</a></h6>
 				</div>
 			</div>
 		</div>
