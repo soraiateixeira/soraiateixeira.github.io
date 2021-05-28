@@ -51,6 +51,5 @@ fields:
     step: 
   description: Order number the post must appear
 pages:
-- _works/let-there-be-rain-let-there-be-earth-let-there-be-time.md
 - _works/marisas.md
 - _works/public-devices-for-therapy.md
