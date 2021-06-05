@@ -109,7 +109,7 @@ if (window.matchMedia('(min-width:768px)').matches) {
 	  var elemTop = $(elem).offset().top;
 	  var elemBottom = elemTop + $(elem).height();
 
-		var thresh = 150;
+		var thresh = 200;
 
 	  return ((elemBottom - thresh <= docViewBottom) && (elemTop + thresh >= docViewTop));
 	}
