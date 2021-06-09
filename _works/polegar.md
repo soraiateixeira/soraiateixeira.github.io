@@ -11,7 +11,7 @@ description: 'Os Tabuleiros, em criptoméria, uma madeira açoriana de origem ni
   Miguel Flor<br>Contexto do projeto: Walk &amp; Talk Azores - Residências RARA<br>Fotografias:
   Mariana Lidl'
 cover_image: "/uploads/9.jpg"
-color: ''
+color: white
 images:
 - "/uploads/9.jpg"
 - "/uploads/8.jpg"

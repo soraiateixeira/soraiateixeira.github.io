@@ -19,7 +19,7 @@ description: 'O projeto Cestos questiona a dimensão anacrónica da produção a
   pretendida. <br><br>Produção: mestre Alcídio<br>Curadoria: Miguel Flor<br>Contexto
   do projeto: Walk&amp;Talk Azores - Residências RARA<br>Fotografias: Mariana Lidl<br>'
 cover_image: "/uploads/20pt-p-4511_2.jpg"
-color: ''
+color: white
 images:
 - "/uploads/whatsapp-image-2019-11-21-at-19-05-47.jpeg"
 - "/uploads/whatsapp-image-2019-11-21-at-19-05-478.jpeg"
