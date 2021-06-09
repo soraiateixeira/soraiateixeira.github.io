@@ -51,6 +51,7 @@ fields:
     step: 
   description: Order number the post must appear
 pages:
+- _works/cestos.md
 - _works/instrumentos-de-concentracao-para-pares.md
 - _works/marisas.md
 - _works/polegar.md
