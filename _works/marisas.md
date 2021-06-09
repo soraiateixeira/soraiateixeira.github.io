@@ -5,8 +5,8 @@ description: "“Marisas” é o nome técnico para um pedaço de vidro macic
   à posteriori numa peça de vidro cujo o seu método de produção seja vidro soprado.
   Este projeto também ele intitulado de Marisas, é um conjunto de quatro peças
   de vidro que questiona a forma como se pega num contentor e promove várias possibilidades
-  de gesto para segurar o mesmo objeto. <br><br>Produzido pelo mestre vidreiro Alindo
-  Francisco<br>Cencal - Marinha Grande"
+  de gesto para segurar o mesmo objeto. <br><br>Produção: mestre vidreiro Alindo Francisco
+  Cencal - Marinha Grande<br>Fotografias: João Leal"
 cover_image: "/uploads/70_marisas.jpg"
 images:
 - "/uploads/26_marisas.jpg"
