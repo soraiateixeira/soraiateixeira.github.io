@@ -19,6 +19,7 @@ description: 'A mudança para o digital impôs a distância entre pessoas com a 
   Bravo<br>Fotografias: Equipa Bienal Istambul; João Azevedo; Soraia Gomes Teixeira'
 cover_image: "/uploads/dsc6363.jpg"
 images:
+- "/uploads/dsc6193.jpg"
 - "/uploads/dsc6363.jpg"
 - "/uploads/1.jpeg"
 - "/uploads/amg_0525.jpg"
