@@ -24,7 +24,6 @@ images:
 - "/uploads/whatsapp-image-2019-11-21-at-19-05-47.jpeg"
 - "/uploads/whatsapp-image-2019-11-21-at-19-05-478.jpeg"
 - "/uploads/20pt-p-4511_8.jpg"
-- "/uploads/20pt-p-4511_7.jpg"
 - "/uploads/w-t19_wip_rara_marianalopes_07.jpg"
 - "/uploads/20pt-p-4511_3.jpg"
 - "/uploads/20pt-p-4511_6.jpg"
