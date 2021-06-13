@@ -4,7 +4,7 @@ description:
 
 collections:
  works:
-  sort_by: order
+  sort_by: date
 
 
 docs_list_title: ACME Documentation
