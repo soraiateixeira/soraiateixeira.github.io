@@ -1,5 +1,5 @@
 ---
-order: 0
+order: '0'
 ano: 2018
 title: Instrumentos de Concentração para Pares
 description: "<strong>Instrumentos de Concentração para Pares</strong>, é um conjunto
@@ -23,5 +23,6 @@ images:
 - "/uploads/3-1.jpg"
 - "/uploads/2-1.jpg"
 - "/uploads/1-1.jpg"
+date: 2021-06-10 23:00:00 +0000
 
 ---

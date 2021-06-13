@@ -1,5 +1,5 @@
 ---
-order: 0
+order: '0'
 ano: 2019
 title: Polegar
 description: 'Os Tabuleiros, em criptoméria, uma madeira açoriana de origem nipónica,
@@ -18,5 +18,6 @@ images:
 - "/uploads/20pt-p-4766_6.jpg"
 - "/uploads/3-2.jpg"
 - "/uploads/2-2.jpg"
+date: 2021-06-08 23:00:00 +0000
 
 ---
