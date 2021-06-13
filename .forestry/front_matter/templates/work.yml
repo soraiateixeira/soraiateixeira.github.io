@@ -50,6 +50,17 @@ fields:
     max: 
     step: 
   description: Order number the post must appear
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
 pages:
 - _works/cestos.md
 - _works/concavas.md
