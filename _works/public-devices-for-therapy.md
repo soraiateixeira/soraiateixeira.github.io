@@ -32,5 +32,6 @@ images:
 mobile_thumbnail_text_color: White
 color: white
 order: 2
+date: 2021-06-12 23:00:00 +0000
 
 ---

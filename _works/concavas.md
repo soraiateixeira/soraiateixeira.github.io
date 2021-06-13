@@ -1,5 +1,5 @@
 ---
-order: 0
+order: '0'
 ano: 2016
 title: Concavas
 description: 'São suportes de corpo e cada um tem uma concavidade onde pousam e encaixam
@@ -16,5 +16,6 @@ images:
 - "/uploads/3-3.jpg"
 - "/uploads/2-3.jpg"
 - "/uploads/2-copia.jpg"
+date: 2021-06-11 23:00:00 +0000
 
 ---
