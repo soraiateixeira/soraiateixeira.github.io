@@ -40,16 +40,6 @@ fields:
 - type: image_gallery
   name: images
   label: Images
-- name: order
-  type: number
-  label: order
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
-  description: Order number the post must appear
 - name: date
   type: datetime
   label: date
