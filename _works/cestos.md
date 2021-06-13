@@ -1,5 +1,5 @@
 ---
-order: 0
+order: '0'
 ano: 2019
 title: Cestos
 description: 'O projeto Cestos questiona a dimensão anacrónica da produção artesanal
@@ -29,5 +29,6 @@ images:
 - "/uploads/20pt-p-4511_6.jpg"
 - "/uploads/20pt-p-4511_4.jpg"
 - "/uploads/20pt-p-4511_2.jpg"
+date: 2021-06-14 23:00:00 +0000
 
 ---
