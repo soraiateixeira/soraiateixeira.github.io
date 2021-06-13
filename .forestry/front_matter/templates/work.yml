@@ -46,8 +46,8 @@ fields:
   description: ''
   config:
     required: false
-    date_format: 
-    time_format: 
+    date_format: DD/MM/YYYY
+    time_format: DD/MM/YYYY
     display_utc: false
   hidden: false
   default: now
