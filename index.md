@@ -10,7 +10,6 @@ sobre: Soraia Gomes Teixeira, vive e trabalha no Porto. Estudou Design Industria
   de Investigación en Arte y Diseño de EINA - Universitat Autònoma de Barcelona.
 email: soraiamgfteixeira@gmail.com
 outros_contactos: <a href="https://www.instagram.com/soraiagomesteixeira" title="https://www.instagram.com/soraiagomesteixeira">www.instagram.com/soraiagomesteixeira</a>
-published: false
 
 ---
 <div id="preload">
