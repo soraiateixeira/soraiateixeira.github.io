@@ -16,6 +16,7 @@ $(document).ready(function() {
 		var scroll= null;
 
 		if (window.matchMedia('(min-width:768px)').matches) {
+
 			$('.main-carousel .main-carousel_wrapper').flickity({
 				groupCells: '60%',
 				cellAlign: 'left',
