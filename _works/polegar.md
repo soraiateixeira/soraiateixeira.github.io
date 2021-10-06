@@ -13,6 +13,7 @@ description: 'Os Tabuleiros, em criptoméria, uma madeira açoriana de origem ni
 cover_image: "/uploads/9.jpg"
 color: white
 images:
+- "/uploads/18_soraiafinais.tif"
 - "/uploads/9.jpg"
 - "/uploads/8.jpg"
 - "/uploads/20pt-p-4766_6.jpg"
