@@ -1,6 +1,6 @@
 ---
-date: 2021-10-06 12:32:12 +0000
-ano: 2021
+date: 2020-08-01 23:00:00 +0000
+ano: 2020
 title: Devolução
 description: 'Estima-se que cerca de 60% do mármore extraído nas pedreiras portuguesas,
   seja depositado em escombro seja por lógicas de mercado ou porque a pedra não cumpre
