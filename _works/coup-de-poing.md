@@ -18,7 +18,6 @@ cover_image: "/uploads/8-1.jpg"
 color: black
 images:
 - "/uploads/2-6.jpg"
-- "/uploads/1-3.jpg"
 - "/uploads/2-4.jpg"
 - "/uploads/1-2.jpg"
 - "/uploads/7.jpg"
