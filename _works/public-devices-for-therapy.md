@@ -14,9 +14,10 @@ description: 'A mudança para o digital impôs a distância entre pessoas com a 
   regulam a proximidade entre elas em segurança. Ao fazê-lo, este desenho produz uma
   nova configuração de esferas íntimas entre os domínios público e privado.<br><br>Projeto
   apoiado pela Jofebar Panoramah!, Pláka Porto, Istanbul Metropolitan Municipality
-  e Beşiktaş Municipality, apresentado na 5ª Bienal de Design de Istambul.<br><br>Curadoria:
-  Mariana Pestana<br>Trabalho Técnico: Abel Tavares<br>Trabalho tipográfico: Joana
-  Bravo<br>Fotografias: Equipa Bienal Istambul; João Azevedo; Soraia Gomes Teixeira'
+  e Beşiktaş Municipality, apresentado na 5ª Bienal de Design de Istambul.<br><br>Projeto
+  para: 5ª Bienal de Design de Istambul<br>Curadoria: Mariana Pestana<br>Trabalho
+  técnico: Abel Tavares<br>Trabalho tipográfico: Joana Bravo<br>Fotografias: Equipa
+  Bienal Istambul; João Azevedo; Soraia Gomes Teixeira'
 cover_image: "/uploads/dsc6363.jpg"
 images:
 - "/uploads/dsc6363.jpg"
