@@ -16,8 +16,8 @@ description: 'O projeto Cestos questiona a dimensão anacrónica da produção a
   nas furnas da Povoação e trabalhado ainda húmido. O formato das asas, que confere
   aos cestos um caráter animalesco, só é possível porque o vime é trabalhado enquanto
   está húmido, sendo depois seco ao sol, ficando através deste processo com a forma
-  pretendida. <br><br>Produção: mestre Alcídio<br>Curadoria: Miguel Flor<br>Contexto
-  do projeto: Walk&amp;Talk Azores - Residências RARA<br>Fotografias: Mariana Lidl<br>'
+  pretendida. <br><br>Projeto para: Walk&amp;Talk Azores - Residências RARA<br>Produção:
+  mestre Alcídio<br>Curadoria: Miguel Flor<br>Fotografias: Mariana Lidl'
 cover_image: "/uploads/20pt-p-4511_2.jpg"
 color: white
 images:
