@@ -17,6 +17,14 @@ description: 'Estima-se que cerca de 60% do mármore extraído nas pedreiras por
 cover_image: "/uploads/8-1.jpg"
 color: black
 images:
-- "/uploads/filme-trabalhadores.m4v"
+- "/uploads/_mg_9338.JPG"
+- "/uploads/_mg_9337.JPG"
+- "/uploads/2-4.jpg"
+- "/uploads/1-2.jpg"
+- "/uploads/7.jpg"
+- "/uploads/9-1.jpg"
+- "/uploads/8-2.jpg"
+- "/uploads/6.jpg"
+- "/uploads/2-5.jpg"
 
 ---
