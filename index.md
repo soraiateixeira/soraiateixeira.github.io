@@ -6,7 +6,7 @@ sobre: Soraia Gomes Teixeira, vive e trabalha no Porto. Estudou Design Industria
   de Artes e Design das Caldas da Rainha. <br>Frequentou o programa doutoral em Design
   na Universidade de Aveiro iniciando uma investigação sobre a presença das mulheres
   no Design Industrial em Portugal.<br>É professora assistente convidada na Escola
-  Superior de Media Artes e design do Politécnico do Porto e frequenta o doutoramento
+  Superior de Media Artes e Design do Politécnico do Porto e frequenta o doutoramento
   de Investigación en Arte y Diseño de EINA - Universitat Autònoma de Barcelona.<br>
 email: soraiamgfteixeira@gmail.com
 outros_contactos: <a href="https://www.instagram.com/soraiagomesteixeira" title="https://www.instagram.com/soraiagomesteixeira">www.instagram.com/soraiagomesteixeira</a>
