@@ -28,3 +28,5 @@ fields:
       format: html
   label: Outros Contactos
   description: Adicionar outros contactos através de link na caixa de edição de texto
+pages:
+- _site/sobremim.md
