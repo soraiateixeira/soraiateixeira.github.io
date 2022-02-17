@@ -1,6 +1,7 @@
 ---
 label: Sobre
 hide_body: true
+display_field: sobre
 fields:
 - name: sobre
   type: textarea
