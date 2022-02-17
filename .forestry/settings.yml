@@ -11,6 +11,7 @@ sections:
   label: About
   create: all
   match: "**/*"
+  new_doc_ext: ".html"
   templates:
   - sobre
 - type: directory
