@@ -14,8 +14,9 @@ sections:
   templates:
   - work
 - type: document
-  path: index.html
+  path: _site
   label: About
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
