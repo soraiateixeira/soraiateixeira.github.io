@@ -53,16 +53,9 @@ fields:
   default: now
 pages:
 - _works/cestos.md
-- _works/cestos.md
-- _works/concavas.md
 - _works/concavas.md
 - _works/coup-de-poing.md
-- _works/coup-de-poing.md
-- _works/instrumentos-de-concentracao-para-pares.md
 - _works/instrumentos-de-concentracao-para-pares.md
 - _works/marisas.md
-- _works/marisas.md
 - _works/polegar.md
-- _works/polegar.md
-- _works/public-devices-for-therapy.md
 - _works/public-devices-for-therapy.md
