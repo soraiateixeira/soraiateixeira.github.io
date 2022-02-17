@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: jekyll-pages
-  label: home
-  create: documents
-  templates:
-  - teste
 - type: heading
   label: Settings
 - type: directory
@@ -19,7 +14,7 @@ sections:
   templates:
   - work
 - type: document
-  path: index.md
+  path: index.html
   label: About
 upload_dir: uploads
 public_path: "/uploads"
