@@ -7,15 +7,19 @@ sections:
 - type: heading
   label: Settings
 - type: directory
+  path: _site
+  label: About
+  create: all
+  match: "**/*"
+  templates:
+  - sobre
+- type: directory
   path: _works
   label: Works
   create: all
   match: "**/*"
   templates:
   - work
-- type: document
-  path: _site
-  label: About
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
