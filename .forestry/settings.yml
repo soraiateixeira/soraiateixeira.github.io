@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: homepage
   create: all
-  match: "**/*"
   new_doc_ext: default.md
   templates:
   - work
