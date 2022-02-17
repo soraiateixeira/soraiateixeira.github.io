@@ -14,7 +14,7 @@ sections:
   templates:
   - work
 - type: document
-  path: index.html
+  path: index.md
   label: About
 upload_dir: uploads
 public_path: "/uploads"
