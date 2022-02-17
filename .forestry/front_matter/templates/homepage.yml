@@ -1,0 +1,18 @@
+---
+label: homepage
+hide_body: false
+fields:
+- name: titulo
+  type: text
+  config:
+    required: false
+  label: titulo
+- name: texto
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: texto

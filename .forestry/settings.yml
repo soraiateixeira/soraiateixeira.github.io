@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: home
   create: documents
-  match: "**/*"
   templates:
   - teste
 - type: heading
