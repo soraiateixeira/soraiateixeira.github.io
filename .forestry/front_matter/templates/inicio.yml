@@ -1,0 +1,13 @@
+---
+label: Inicio
+hide_body: true
+fields:
+- type: text
+  name: sobre
+  label: sobre
+- type: text
+  name: email
+  label: email
+- type: text
+  name: outros_contactos
+  label: outros_contactos
