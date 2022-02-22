@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _site/index.html
+  label: home
+  match: "**/*"
 - type: heading
   label: Settings
 - type: directory
